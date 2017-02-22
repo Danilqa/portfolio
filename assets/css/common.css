@@ -1,0 +1,26 @@
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    color: #fff;
+    margin: 0;
+}
+
+.intro p {
+    color: #fff;
+}
+
+.section {
+    text-align: center;
+}
+
+.controlArrow.prev {
+    left: 50px;
+}
+
+.controlArrow.next {
+    right: 50px;
+}
+
+#infoMenu li a {
+    color: #fff;
+}
