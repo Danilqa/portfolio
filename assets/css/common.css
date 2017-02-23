@@ -1,0 +1,194 @@
+#section0 {
+    background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url(../img/56f511afcd214153ad4d16e0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    background-image: url(../img/25135.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    font-size: 25pt;
+    font-family: GT Walsheim Pro;
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro p {
+    color: #fff;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.section {
+    text-align: center;
+}
+
+.controlArrow.prev {
+    left: 50px;
+}
+
+.controlArrow.next {
+    right: 50px;
+}
+
+#infoMenu li a {
+    color: #fff;
+}
+
+.tr-lefttop {
+    position: fixed;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+	border-top: 400px solid rgba(255,255,255,0.8); 
+	border-right: 400px solid transparent;
+    z-index: 70;
+}
+
+.tr-rightbtm {
+    position: fixed; 
+    width: 0;
+	height: 0;
+	border-bottom: 200px solid rgba(255,255,255,0.8); 
+	border-left: 200px solid transparent; 
+    right: 0; 
+    bottom: 0px; 
+    z-index: 70;
+    display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.tr-rightbtm:hover {
+  /*Покачивание*/
+    -webkit-animation: swing 1.5s ease;
+  animation: swing 1.5s ease;
+   -webkit-animation-iteration-count: 2;
+   animation-iteration-count: 2;
+}
+
+.about {
+    right: 20px;
+    top: 20px;
+    position: fixed;
+    z-index: 70;
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+    position: fixed;
+    z-index: 80;
+    top: 30px;
+    left: 5px;
+}
+
+.write {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    z-index: 80;
+    right: 20px;
+    bottom: 20px;
+}
+
+.go_to {
+    width: 260px;
+    height: 70px;
+    text-decoration: none;
+    font-family: GT Walsheim Pro;
+    font-size: 17pt;
+    outline: none;
+    background-color: white;
+    border-radius: 35px;
+    border-style: none;
+    margin-top: 300px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.go_to:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    transition: 0.5s;
+}
+
+/*Покачивание*/
+@-webkit-keyframes swing {
+  15% {
+     -webkit-transform: translateX(9px) translateY(9px);
+    transform: translateX(9px) translateY(9px);
+  }
+  30% {
+     -webkit-transform: translateX(-9px) translateY(-9px);
+    transform: translateX(-9px) translateY(-9px);
+  }
+  40% {
+      -webkit-transform: translateX(6px) translateY(6px);
+    transform: translateX(6px) translateY(6px);
+  }
+  50% {
+      -webkit-transform: translateX(-6px) translateY(-6px);
+    transform: translateX(-6px) translateY(-6px);
+  }
+  65% {
+      -webkit-transform: translateX(3px) translateY(3px);
+    transform: translateX(3px) translateY(3px);
+  }
+  100% {
+      -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+}
+ 
+@keyframes swing {
+  15% {
+     -webkit-transform: translateX(9px) translateY(9px);
+    transform: translateX(9px) translateY(9px);
+  }
+  30% {
+     -webkit-transform: translateX(-9px) translateY(-9px);
+    transform: translateX(-9px) translateY(-9px);
+  }
+  40% {
+      -webkit-transform: translateX(6px) translateY(6px);
+    transform: translateX(6px) translateY(6px);
+  }
+  50% {
+      -webkit-transform: translateX(-6px) translateY(-6px);
+    transform: translateX(-6px) translateY(-6px);
+  }
+  65% {
+      -webkit-transform: translateX(3px) translateY(3px);
+    transform: translateX(3px) translateY(3px);
+  }
+  100% {
+      -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+}
