@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #section0 {
     background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
     background-repeat: no-repeat;
@@ -17,16 +16,7 @@
     background-size: cover;
 }
 
-=======
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
-h1 {
-    font-size: 5em;
-    font-family: arial, helvetica;
-    color: #fff;
-    margin: 0;
-}
 
-<<<<<<< HEAD
 p {
     font-size: 25pt;
     font-family: GT Walsheim Pro;
@@ -39,19 +29,10 @@ a {
     color: #fff;
 }
 
-=======
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
-.intro p {
-    color: #fff;
-}
-
-<<<<<<< HEAD
 .intro {
     margin-top: 100px;
 }
 
-=======
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
 .section {
     text-align: center;
 }
@@ -66,7 +47,6 @@ a {
 
 #infoMenu li a {
     color: #fff;
-<<<<<<< HEAD
 }
 
 .tr-lefttop {

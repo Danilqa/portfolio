@@ -30,10 +30,7 @@ html.fp-enabled,
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box; /* <=28 */
     box-sizing: border-box;
-<<<<<<< HEAD
     z-index: 2;
-=======
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
 }
 .fp-slide {
     float: left;
@@ -43,11 +40,7 @@ html.fp-enabled,
     display: block;
 }
 .fp-slides {
-<<<<<<< HEAD
     z-index:2;
-=======
-    z-index:1;
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -164,11 +157,7 @@ html.fp-enabled,
                 height: 4px;
                 width: 4px;
                 border: 0;
-<<<<<<< HEAD
                 background: white;
-=======
-                background: #333;
->>>>>>> fe2330a6c80f08ad96254cad9eb1d2aaf4f39086
                 left: 50%;
                 top: 50%;
                 margin: -2px 0 0 -2px;
