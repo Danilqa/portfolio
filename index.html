@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-full-page/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -26,38 +27,51 @@
 <body>
 
     <div id="fullpage">
-        <div class="section " id="section0">
+        <div id="overlay"></div>
+        <div class="section" id="section-0">
             <div class="intro">
-                <h1>Первый слайд</h1>
-                <p>текст</p>
-                <button class="go_to" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <h1>CROSSLESS</h1>
+                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section" id="section-1">
             <div class="intro">
-                <h1>Второй слайд</h1>
-                <p>текст</p>
-                <button class="go_to" type="submit">ОТКРЫТЬ КЕЙС</button>
-
+                <h1>MIND GUESTS</h1>
+                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
-        <div class="section" id="section2">
+        <div class="section" id="section-2">
             <div class="intro">
-                <h1>Enjoy it</h1>
-                <p>текст</p>
-                <button class="go_to" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <h1>ARAHIPSTER</h1>
+                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
 
     </div>
-    <img class="logo" src="assets/img/kp.png">
-    <div class="tr-lefttop"><img class="write" src="assets/img/pen.png"></div>
-    <div class="tr-rightbtm"></div>
+
+    <img class="logo" src="http://www.anakin.co/static/svg/triangle-white.svg" width=60>
+        
+    <div class="btn-close"></div>
+    
+    <div class="contact-background">
+        <div class="header">
+            <h2 class="text-normal">Наша команда хочет помочь вам</h2>
+        </div>
+        <div class="btn-order-close btn-shadow">
+            <div class="x"></div>
+        </div>
+    </div>
+
+    <div class="btn-contact-animation"></div>
+    
+    <div class="btn-triangle-right btn-contact btn-shadow">
+        <i class="icon icon-edit"></i>
+    </div>
+    
     <div class="about">
         <a href="#">
             <p>О нас</p>
         </a>
-    </div>
     </div>
 
 
@@ -76,7 +90,14 @@
                 sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['1', '2', '3']
+                navigationTooltips: ['Crossless', 'Mind Guests', 'Arahipster']
+            });
+            
+            $('.btn-contact, .btn-order-close').on('click', function() {
+                $('.btn-contact').toggleClass('opened'); 
+                $('.btn-order-close').toggleClass('opened');
+                $('.contact-background').toggleClass('opened');
+                $('.btn-contact-animation').toggleClass('opened');
             });
         });
     </script>
