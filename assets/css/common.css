@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "DINPro";
+  src:url("../fonts/DINPro.otf?#iefix") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 #section-0 {
     background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
     background-repeat: no-repeat;
@@ -33,7 +41,7 @@
 
 p {
     font-size: 25pt;
-    font-family: "DINPro";
+    font-family: DINPro, GT Walsheim Pro, sans-serif;
     color: #fff;
     margin: 0;
 }
@@ -46,7 +54,7 @@ h2 {
 }
 
 h1, h2, h3, h4 {
-    font-family: "DINPro";
+    font-family: DINPro, GT Walsheim Pro, sans-serif;
 }
 
 .text-normal {
