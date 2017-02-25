@@ -41,3 +41,6 @@
 .icon-edit:before {
   content: "\61";
 }
+.icon-logo:before {
+  content: "\62";
+}
