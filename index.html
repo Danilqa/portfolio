@@ -4,8 +4,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <title>Креативные парни</title>
+    <title>ВЫСОТА</title>
 
+    <link rel="icon" type="image/png" href="assets/img/iconicon.ico">
+    
     <meta name="author" content="Миша" />
     <meta name="description" content="Тупой арбузик" />
     <meta name="keywords" content="петух, олежа, писюн" />
@@ -30,32 +32,36 @@
         <div id="overlay"></div>
         <div class="section" id="section-0">
             <div class="intro">
-                <h1>CROSSLESS</h1>
+                <!--<h1>CROSSLESS</h1>-->
+                <img src="assets/img/kross.png" class="crossless">
                 <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-1">
             <div class="intro">
-                <h1>MIND GUESTS</h1>
+                <!--<h1>MIND GUESTS</h1>-->
+                <img src="assets/img/logowh.png" class="mindg">
                 <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-2">
             <div class="intro">
-                <h1>ARAHIPSTER</h1>
+                <!--<h1>ARAHIPSTER</h1>-->
+                <img src="assets/img/ARAHIP.png" class="arahip">
                 <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
 
     </div>
 
-    <img class="logo" src="http://www.anakin.co/static/svg/triangle-white.svg" width=60>
+    <img class="logo" src="assets/img/high_wh.png" width=200>
         
     <div class="btn-close"></div>
     
     <div class="contact-background">
         <div class="header">
-            <h2 class="text-normal">Наша команда всегда готова помочь Вам!</h2>
+            <img class="logo" src="assets/img/high_bl.png" width=200>
+            <h2 class="text-normal">Наша команда всегда рада помочь Вам!</h2>
         </div>
         <div class="btn-order-close btn-shadow">
             <div class="x"></div>
@@ -99,6 +105,22 @@
                 $('.contact-background').toggleClass('opened');
                 $('.btn-contact-animation').toggleClass('opened');
             });
+            
+            
+            $('.btn-order-close').on('click', function() {
+                $('.btn-contact').addClass('closed'); 
+                $('.btn-order-close').addClass('closed');
+                $('.contact-background').addClass('closed');
+                $('.btn-contact-animation').addClass('closed');
+            });
+            
+            $('.btn-contact-animation').mouseover(function() {
+                $('.btn-contact').removeClass('closed'); 
+                $('.btn-order-close').removeClass('closed');
+                $('.contact-background').removeClass('closed');
+                $('.btn-contact-animation').removeClass('closed');
+            });
+            
         });
     </script>
 
