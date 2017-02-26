@@ -177,6 +177,7 @@ a {
     z-index: 11;
     width: 240px;
     height: 54px;
+    
     text-decoration: none;
     font-family: GT Walsheim Pro;
     font-size: 14pt;
@@ -206,8 +207,8 @@ a {
 }
 
 .arahip {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 267px;
 }
 
 .contact-background {
@@ -396,58 +397,121 @@ a {
   }
 }
 
-/*Покачивание*/
 
-@-webkit-keyframes swing {
-    15% {
-        -webkit-transform: translateX(9px) translateY(9px);
-        transform: translateX(9px) translateY(9px);
+
+@media only screen and (min-width: 200px){
+    .crossless {
+        width: 50%;
+        height: 50%;
     }
-    30% {
-        -webkit-transform: translateX(-9px) translateY(-9px);
-        transform: translateX(-9px) translateY(-9px);
+    .mindg {
+        width: 50%;
+        height: 50%;
     }
-    40% {
-        -webkit-transform: translateX(6px) translateY(6px);
-        transform: translateX(6px) translateY(6px);
+    .arahip {
+        width: 50%;
+        height: 50%;
     }
-    50% {
-        -webkit-transform: translateX(-6px) translateY(-6px);
-        transform: translateX(-6px) translateY(-6px);
+    .go_to {
+        width: 200px;
+        height: 54px;
+        margin-left: -110px;
     }
-    65% {
-        -webkit-transform: translateX(3px) translateY(3px);
-        transform: translateX(3px) translateY(3px);
+    .btn-triangle-right {
+        width: 60px;
+        height: 60px;
+        line-height: 70px;
     }
-    100% {
-        -webkit-transform: translateX(0) translateY(0);
-        transform: translateX(0) translateY(0);
+    .btn-triangle-right .icon {
+        font-size: 30px;
+        margin-bottom: 20px;
     }
+    
+}
+         
+@media only screen and (min-width: 500px) {
+    .crossless {
+        width: 50%;
+        height: 50%;
+    }
+    .mindg {
+        width: 50%;
+        height: 50%;
+    }
+    .arahip {
+        width: 50%;
+        height: 50%;
+    }
+    .go_to {
+        width: 240px;
+        height: 54px;
+        margin-left: -130px;
+    }
+    .btn-triangle-right {
+        width: 80px;
+        height: 80px;
+        line-height: 90px;
+    }
+    .btn-triangle-right .icon {
+        font-size: 38px;
+    }
+    
 }
 
-@keyframes swing {
-    15% {
-        -webkit-transform: translateX(9px) translateY(9px);
-        transform: translateX(9px) translateY(9px);
+@media only screen and (min-width: 800px) {
+    .crossless {
+        width: 50%;
+        height: 50%;
     }
-    30% {
-        -webkit-transform: translateX(-9px) translateY(-9px);
-        transform: translateX(-9px) translateY(-9px);
+    .mindg {
+        width: 50%;
+        height: 50%;
     }
-    40% {
-        -webkit-transform: translateX(6px) translateY(6px);
-        transform: translateX(6px) translateY(6px);
+    .arahip {
+        width: 50%;
+        height: 50%;
     }
-    50% {
-        -webkit-transform: translateX(-6px) translateY(-6px);
-        transform: translateX(-6px) translateY(-6px);
+    .go_to {
+        width: 240px;
+        height: 54px;
+        margin-left: -130px;
     }
-    65% {
-        -webkit-transform: translateX(3px) translateY(3px);
-        transform: translateX(3px) translateY(3px);
+    .btn-triangle-right {
+        width: 80px;
+        height: 80px;
+        line-height: 90px;
     }
-    100% {
-        -webkit-transform: translateX(0) translateY(0);
-        transform: translateX(0) translateY(0);
+    .btn-triangle-right .icon {
+        font-size: 38px;
     }
+     
+}
+         
+@media only screen and (min-width: 1280px) {
+    .crossless {
+        width: 40%;
+        height: 40%;
+    }
+    .mindg {
+        width: 40%;
+        height: 40%;
+    }
+    .arahip {
+        width: 40%;
+        height: 40%;
+    }
+    .go_to {
+        width: 240px;
+        height: 54px;
+        margin-left: -130px;
+    }
+    .btn-triangle-right {
+        width: 80px;
+        height: 80px;
+        line-height: 90px;
+    }
+    .btn-triangle-right .icon {
+        font-size: 38px;
+    }
+    
 }
