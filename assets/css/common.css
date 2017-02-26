@@ -426,6 +426,12 @@ a {
         font-size: 30px;
         margin-bottom: 20px;
     }
+    .btn-order-close.opened {
+        width: 60px;
+        height: 60px;
+        right: 30px;
+        top: 40px;
+    }
     
 }
          
@@ -454,6 +460,12 @@ a {
     }
     .btn-triangle-right .icon {
         font-size: 38px;
+    }
+    .btn-order-close.opened {
+        width: 80px;
+        height: 80px;
+        right: 40px;
+        top: 30px;
     }
     
 }
@@ -484,6 +496,12 @@ a {
     .btn-triangle-right .icon {
         font-size: 38px;
     }
+    .btn-order-close.opened {
+        width: 80px;
+        height: 80px;
+        right: 40px;
+        top: 30px;
+    }
      
 }
          
@@ -512,6 +530,12 @@ a {
     }
     .btn-triangle-right .icon {
         font-size: 38px;
+    }
+    .btn-order-close.opened {
+        width: 80px;
+        height: 80px;
+        right: 40px;
+        top: 30px;
     }
     
 }
