@@ -139,19 +139,19 @@ html.fp-enabled,
                 height: 12px;
                 width: 12px;
                 margin: -6px 0 0 -6px;
-                border-radius: 100%;
+                
 
                 #fp-nav ul li:hover &,
                 #fp-slidesNav ul li:hover & {
                     height: 12px;
                     width: 12px;
                     margin: -6px 0 0 -6px;
-                    border-radius: 100%;
+                    
                 }
             }
 
             span {
-                border-radius: 50%;
+                
                 position: absolute;
                 z-index: 1;
                 height: 4px;
