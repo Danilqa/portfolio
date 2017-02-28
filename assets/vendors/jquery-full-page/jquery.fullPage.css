@@ -175,7 +175,7 @@ html.fp-enabled,
         background: white;
         left: 50%;
         top: 50%;
-        margin: 0px 0 0 0px;
+        margin: -2px 0 0 -2px;
         -webkit-transition: all 0.1s ease-in-out;
         -moz-transition: all 0.1s ease-in-out;
         -o-transition: all 0.1s ease-in-out;
@@ -185,9 +185,7 @@ html.fp-enabled,
     .fp-slidesNav ul li:hover a span {
       width: 10px;
       height: 10px;
-      margin: -2px 0px 0px -2px;
-        box-shadow: 0.5px 0.5px 0 #1f1f1f, 1px 1px 0 #1f1f1f, 1.5px 1.5px 0 #1f1f1f, 2px 2px 0 #1f1f1f;
-}
+      margin: -5px 0px 0px -5px; }
 
 /* line 184, C:/OpenServer/domains/portfolio.ru/assets/vendors/jquery-full-page/jquery.fullPage.scss */
 #fp-nav {
@@ -207,9 +205,9 @@ html.fp-enabled,
   #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    color: #1f1f1f;
+    font-size: 16px;
+    font-family: DINPro, sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
