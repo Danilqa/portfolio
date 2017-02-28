@@ -10,6 +10,15 @@
     background-color: #67dec3 !important;
 }
 
+.cube_cross {
+    position: absolute;
+    z-index: -10;
+    width: 300px;
+    height: 300px;
+    animation-name: motion-cross;
+    animation-duration: 3s;
+}
+
 #section-1 {
     background-color: #fffc0a !important;
 }
@@ -532,6 +541,15 @@ a {
     opacity: 1;
     border-radius: 0;
   }
+}
+
+@keyframes motion-cross {
+    from {
+        object-position: 0 0;
+    }
+    to {
+        object-position: 300px 100px; 
+    }
 }
 
 
