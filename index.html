@@ -34,7 +34,7 @@
             <div class="intro">
                 <!--<h1>CROSSLESS</h1>-->
                 <img src="assets/img/kross.png" class="crossless">
-                <button class="go_to btn-shadow" type="submit">ДАНЯ ДОН-ОБРУБОН</button>
+                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-1">
@@ -115,13 +115,14 @@
             
             
             $('.btn-order-close').on('click', function() {
-                $('.btn-contact').addClass('closed'); 
-                $('.btn-order-close').addClass('closed');
-                $('.contact-background').addClass('closed');
-                $('.btn-contact-animation').addClass('closed');
+                $('.btn-contact').toggleClass('closed'); 
+                $('.btn-order-close').toggleClass('closed');
+                $('.contact-background').toggleClass('closed');
+                $('.btn-contact-animation').toggleClass('closed');
             });
             
-            $('.btn-contact-animation').mouseover(function() {
+            
+            $('.btn-contact-animation').mousemove(function() {
                 $('.btn-contact').removeClass('closed'); 
                 $('.btn-order-close').removeClass('closed');
                 $('.contact-background').removeClass('closed');
