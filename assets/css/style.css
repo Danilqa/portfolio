@@ -1,0 +1,809 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro.otf?#iefix") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 41, C:/Portfolio-old/assets/css/style.scss */
+#section-0 {
+  background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 47, C:/Portfolio-old/assets/css/style.scss */
+#section-1 {
+  background-image: url(../img/56f511afcd214153ad4d16e0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 53, C:/Portfolio-old/assets/css/style.scss */
+#section-2 {
+  background-image: url(../img/25135.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 59, C:/Portfolio-old/assets/css/style.scss */
+.section {
+  color: #fff; }
+  /* line 60, C:/Portfolio-old/assets/css/style.scss */
+  .section:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6); }
+
+/* line 74, C:/Portfolio-old/assets/css/style.scss */
+p, label {
+  font-size: 25pt;
+  font-family: DINPro, GT Walsheim Pro, sans-serif;
+  color: #fff;
+  margin: 0; }
+
+/* line 81, C:/Portfolio-old/assets/css/style.scss */
+h1 {
+  font-size: 84px; }
+
+/* line 85, C:/Portfolio-old/assets/css/style.scss */
+h2 {
+  font-size: 46px; }
+
+/* line 89, C:/Portfolio-old/assets/css/style.scss */
+h1, h2, h3, h4 {
+  font-family: DINPro, GT Walsheim Pro, sans-serif; }
+
+/* line 93, C:/Portfolio-old/assets/css/style.scss */
+.text-normal {
+  font-weight: 300;
+  margin-top: 150px;
+  font-size: 55px;
+  margin-bottom: 15px; }
+
+/* line 100, C:/Portfolio-old/assets/css/style.scss */
+.text-in-write {
+  color: black;
+  font-size: 15pt;
+  padding: 0 10px; }
+
+/* line 106, C:/Portfolio-old/assets/css/style.scss */
+.text-obr {
+  width: 350px;
+  margin: 20px;
+  margin-top: 70px;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+  font-family: DINPro, sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  padding: 8px 9px; }
+  /* line 118, C:/Portfolio-old/assets/css/style.scss */
+  .text-obr:focus {
+    border-bottom: 2px solid #B18340; }
+
+/* line 123, C:/Portfolio-old/assets/css/style.scss */
+.mail-obr {
+  margin-top: 20px; }
+
+/* line 127, C:/Portfolio-old/assets/css/style.scss */
+textarea {
+  width: 500px;
+  height: 50px;
+  margin: 40px 20px;
+  border: 0;
+  border-bottom: 1.5px solid black;
+  outline: 0;
+  font-family: DINPro, sans-serif;
+  font-size: 15pt;
+  padding: 8px 9px; }
+  /* line 138, C:/Portfolio-old/assets/css/style.scss */
+  textarea:focus {
+    border: 0;
+    border-bottom: 1.5px solid #B18340; }
+
+/* line 144, C:/Portfolio-old/assets/css/style.scss */
+.btn-send {
+  border: 2px solid black;
+  border-radius: 35px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -120px;
+  width: 240px;
+  height: 54px;
+  background: #fff;
+  text-decoration: none;
+  font-family: GT Walsheim Pro;
+  font-size: 14pt;
+  transition: 0.5s; }
+  /* line 159, C:/Portfolio-old/assets/css/style.scss */
+  .btn-send:hover {
+    background: #B18340;
+    transition: 0.5s;
+    cursor: pointer; }
+
+/* line 166, C:/Portfolio-old/assets/css/style.scss */
+a {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 171, C:/Portfolio-old/assets/css/style.scss */
+.intro {
+  display: table;
+  width: 100%;
+  margin-top: 0px; }
+  /* line 176, C:/Portfolio-old/assets/css/style.scss */
+  .intro h1 {
+    display: table-cell;
+    vertical-align: middle; }
+
+/* line 182, C:/Portfolio-old/assets/css/style.scss */
+.go_to {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -130px; }
+
+/* line 189, C:/Portfolio-old/assets/css/style.scss */
+.section {
+  text-align: center; }
+
+/* line 194, C:/Portfolio-old/assets/css/style.scss */
+.controlArrow.prev {
+  left: 50px; }
+
+/* line 198, C:/Portfolio-old/assets/css/style.scss */
+.controlArrow.next {
+  right: 50px; }
+
+/* line 203, C:/Portfolio-old/assets/css/style.scss */
+#infoMenu li a {
+  color: #fff; }
+
+/* line 207, C:/Portfolio-old/assets/css/style.scss */
+.btn-triangle-left {
+  position: fixed;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+  border-top: 400px solid rgba(255, 255, 255, 0.8);
+  border-right: 400px solid transparent;
+  z-index: 70; }
+
+/* line 218, C:/Portfolio-old/assets/css/style.scss */
+.btn-triangle-right {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  right: 25px;
+  bottom: 30px;
+  border-radius: 100%;
+  z-index: 70;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  text-align: center;
+  line-height: 90px; }
+  /* line 233, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right:hover {
+    cursor: pointer; }
+  /* line 237, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right .icon {
+    font-size: 38px;
+    vertical-align: middle; }
+  /* line 242, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right:hover {
+    /*Покачивание
+    -webkit-animation: swing 1.5s ease;
+    animation: swing 1.5s ease;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;*/ }
+
+/* line 251, C:/Portfolio-old/assets/css/style.scss */
+.about {
+  right: 25px;
+  top: 50px;
+  position: fixed;
+  z-index: 70; }
+  /* line 257, C:/Portfolio-old/assets/css/style.scss */
+  .about p {
+    font-size: 30px;
+    margin-right: 16px; }
+
+/* line 263, C:/Portfolio-old/assets/css/style.scss */
+.logo {
+  position: fixed;
+  z-index: 80;
+  top: 50px;
+  left: 50px; }
+
+/* line 270, C:/Portfolio-old/assets/css/style.scss */
+.write {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  z-index: 80;
+  right: 20px;
+  bottom: 20px; }
+
+/* line 279, C:/Portfolio-old/assets/css/style.scss */
+.go_to {
+  z-index: 11;
+  width: 240px;
+  height: 54px;
+  text-decoration: none;
+  font-family: GT Walsheim Pro;
+  font-size: 14pt;
+  outline: none;
+  background-color: white;
+  border-radius: 35px;
+  border-style: none;
+  margin-top: 300px;
+  transition: 0.5s;
+  cursor: pointer; }
+  /* line 294, C:/Portfolio-old/assets/css/style.scss */
+  .go_to:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+    background-color: #B18340; }
+
+/* line 301, C:/Portfolio-old/assets/css/style.scss */
+.crossless {
+  width: 531px;
+  height: 320.5px; }
+
+/* line 306, C:/Portfolio-old/assets/css/style.scss */
+.mindg {
+  width: 700px;
+  height: 700px; }
+
+/* line 311, C:/Portfolio-old/assets/css/style.scss */
+.arahip {
+  width: 400px;
+  height: 267px; }
+
+/* line 316, C:/Portfolio-old/assets/css/style.scss */
+.contact-background {
+  background: #fff;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  border-top-left-radius: 100%; }
+  /* line 326, C:/Portfolio-old/assets/css/style.scss */
+  .contact-background.opened {
+    z-index: 81;
+    animation-name: contact-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 333, C:/Portfolio-old/assets/css/style.scss */
+  .contact-background.closed {
+    z-index: 81;
+    animation-name: contact-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+
+/* line 342, C:/Portfolio-old/assets/css/style.scss */
+.btn-shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.5s; }
+  /* line 346, C:/Portfolio-old/assets/css/style.scss */
+  .btn-shadow:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #B18340;
+    transition: 0.5s; }
+
+/* line 353, C:/Portfolio-old/assets/css/style.scss */
+.btn-contact-animation {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  right: 25px;
+  bottom: 30px;
+  background: #fff;
+  border-radius: 100%; }
+  /* line 363, C:/Portfolio-old/assets/css/style.scss */
+  .btn-contact-animation.opened {
+    z-index: 80;
+    animation-name: btn-open;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; }
+  /* line 370, C:/Portfolio-old/assets/css/style.scss */
+  .btn-contact-animation.closed {
+    z-index: 80;
+    animation-name: btn-close;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+
+/* line 381, C:/Portfolio-old/assets/css/style.scss */
+.btn-order-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  border-radius: 100%;
+  background: #fff;
+  border: 2px solid #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  /* line 395, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close.opened {
+    width: 80px;
+    height: 80px; }
+  /* line 400, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close:hover {
+    background: #B18340;
+    cursor: pointer; }
+
+/* line 406, C:/Portfolio-old/assets/css/style.scss */
+.contact-background .header {
+  width: 100%;
+  text-align: center; }
+
+/* line 411, C:/Portfolio-old/assets/css/style.scss */
+.x {
+  position: relative;
+  left: 50%;
+  margin-left: -26px;
+  margin-top: -24px;
+  top: 50%; }
+  /* line 418, C:/Portfolio-old/assets/css/style.scss */
+  .x::before, .x::after {
+    content: "";
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 2px 2px 0px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    transform: rotate(45deg); }
+  /* line 431, C:/Portfolio-old/assets/css/style.scss */
+  .x::before {
+    border-width: 0px 2px 2px 0px;
+    top: 0px; }
+  /* line 436, C:/Portfolio-old/assets/css/style.scss */
+  .x::after {
+    border-width: 2px 0px 0px 2px;
+    top: 28px; }
+
+/* line 442, C:/Portfolio-old/assets/css/style.scss */
+#fp-nav ul li, .fp-slidesNav ul li {
+  display: block;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 20px 10px;
+  position: relative; }
+
+/* line 450, C:/Portfolio-old/assets/css/style.scss */
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+  height: 14px !important;
+  width: 14px !important;
+  margin: -6px 0 0 -6px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  background: #fff; }
+
+/* line 459, C:/Portfolio-old/assets/css/style.scss */
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  height: 14px !important;
+  width: 14px !important;
+  margin: -6px 0 0 -6px !important;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  background: transparent; }
+
+/* line 468, C:/Portfolio-old/assets/css/style.scss */
+#fp-nav ul li .fp-tooltip {
+  top: 3px; }
+
+/* line 473, C:/Portfolio-old/assets/css/style.scss */
+fieldset {
+  margin: 0 0 3rem;
+  padding: 0;
+  border: none; }
+
+/* line 479, C:/Portfolio-old/assets/css/style.scss */
+.form-radio,
+.form-group {
+  position: relative;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem; }
+
+/* line 487, C:/Portfolio-old/assets/css/style.scss */
+.form-inline > .form-group,
+.form-inline > .btn {
+  display: inline-block;
+  margin-bottom: 0; }
+
+/* line 496, C:/Portfolio-old/assets/css/style.scss */
+.form-group input {
+  height: 1.9rem; }
+
+/* line 500, C:/Portfolio-old/assets/css/style.scss */
+.form-group textarea {
+  resize: none; }
+
+/* line 504, C:/Portfolio-old/assets/css/style.scss */
+.form-group select {
+  width: 100%;
+  font-size: 1rem;
+  height: 1.6rem;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  background: none;
+  border: none;
+  line-height: 1.6;
+  box-shadow: none; }
+
+/* line 515, C:/Portfolio-old/assets/css/style.scss */
+.form-group .control-label {
+  position: absolute;
+  top: 0.25rem;
+  pointer-events: none;
+  padding-left: 0.125rem;
+  z-index: 1;
+  color: #b3b3b3;
+  font-size: 1rem;
+  font-weight: normal;
+  transition: all 0.28s ease; }
+
+/* line 527, C:/Portfolio-old/assets/css/style.scss */
+.form-group .bar {
+  position: relative;
+  border-bottom: 0.0625rem solid #999;
+  display: block; }
+  /* line 532, C:/Portfolio-old/assets/css/style.scss */
+  .form-group .bar::before {
+    content: '';
+    height: 0.125rem;
+    width: 0;
+    left: 50%;
+    bottom: -0.0625rem;
+    position: absolute;
+    background: #337ab7;
+    transition: left 0.28s ease, width 0.28s ease;
+    z-index: 2; }
+
+/* line 545, C:/Portfolio-old/assets/css/style.scss */
+.form-group input,
+.form-group textarea {
+  display: block;
+  background: none;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  font-size: 1rem;
+  border-width: 0;
+  border-color: transparent;
+  line-height: 1.9;
+  width: 100%;
+  color: transparent;
+  transition: all 0.28s ease;
+  box-shadow: none; }
+
+/* line 560, C:/Portfolio-old/assets/css/style.scss */
+.form-group input[type="file"] {
+  line-height: 1; }
+  /* line 563, C:/Portfolio-old/assets/css/style.scss */
+  .form-group input[type="file"] ~ .bar {
+    display: none; }
+
+/* line 568, C:/Portfolio-old/assets/css/style.scss */
+.form-group select,
+.form-group input:focus,
+.form-group input:valid,
+.form-group input.form-file,
+.form-group input.has-value,
+.form-group textarea:focus,
+.form-group textarea:valid,
+.form-group textarea.form-file,
+.form-group textarea.has-value {
+  color: #333; }
+  /* line 579, C:/Portfolio-old/assets/css/style.scss */
+  .form-group select ~ .control-label,
+  .form-group input:focus ~ .control-label,
+  .form-group input:valid ~ .control-label,
+  .form-group input.form-file ~ .control-label,
+  .form-group input.has-value ~ .control-label,
+  .form-group textarea:focus ~ .control-label,
+  .form-group textarea:valid ~ .control-label,
+  .form-group textarea.form-file ~ .control-label,
+  .form-group textarea.has-value ~ .control-label {
+    font-size: 0.8rem;
+    color: gray;
+    top: -1rem;
+    left: 0; }
+
+/* line 590, C:/Portfolio-old/assets/css/style.scss */
+.form-group select:focus,
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none; }
+  /* line 593, C:/Portfolio-old/assets/css/style.scss */
+  .form-group select:focus ~ .control-label,
+  .form-group input:focus ~ .control-label,
+  .form-group textarea:focus ~ .control-label {
+    color: #337ab7; }
+  /* line 598, C:/Portfolio-old/assets/css/style.scss */
+  .form-group select:focus ~ .bar::before,
+  .form-group input:focus ~ .bar::before,
+  .form-group textarea:focus ~ .bar::before {
+    width: 100%;
+    left: 0; }
+
+/*
+    ====== АНИМАЦИЯ ======
+*/
+@keyframes btn-open {
+  to {
+    opacity: 0.3;
+    transform: scale(10, 10); } }
+
+@keyframes contact-background-opened {
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 0; } }
+
+@keyframes btn-close {
+  to {
+    opacity: 0.3;
+    transform: scale(10, 10); } }
+
+@keyframes contact-background-closed {
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 0; } }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #B18340; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #B18340; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: #B18340; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@media only screen and (min-width: 200px) {
+  /* line 678, C:/Portfolio-old/assets/css/style.scss */
+  .crossless, .mindg, .arahip {
+    width: 50%;
+    height: 50%; }
+  /* line 683, C:/Portfolio-old/assets/css/style.scss */
+  .go_to {
+    width: 200px;
+    height: 54px;
+    margin-left: -110px; }
+  /* line 689, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right {
+    width: 60px;
+    height: 60px;
+    line-height: 70px; }
+    /* line 694, C:/Portfolio-old/assets/css/style.scss */
+    .btn-triangle-right .icon {
+      font-size: 30px;
+      margin-bottom: 20px; }
+  /* line 700, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close.opened {
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    top: 40px; }
+  /* line 707, C:/Portfolio-old/assets/css/style.scss */
+  .logo {
+    width: 150px;
+    left: 25px; }
+  /* line 712, C:/Portfolio-old/assets/css/style.scss */
+  .about p {
+    font-size: 25px; }
+  /* line 716, C:/Portfolio-old/assets/css/style.scss */
+  .text-normal {
+    font-size: 40px; }
+  /* line 720, C:/Portfolio-old/assets/css/style.scss */
+  .text-in-write {
+    font-size: 12pt; }
+  /* line 724, C:/Portfolio-old/assets/css/style.scss */
+  .text-obr {
+    width: 200px;
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 45px; }
+  /* line 731, C:/Portfolio-old/assets/css/style.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 735, C:/Portfolio-old/assets/css/style.scss */
+  .btn-send {
+    width: 200px;
+    height: 54px;
+    margin-left: -100px; } }
+
+@media only screen and (min-width: 500px) {
+  /* line 743, C:/Portfolio-old/assets/css/style.scss */
+  .crossless, .mindg, .arahip {
+    width: 50%;
+    height: 50%; }
+  /* line 748, C:/Portfolio-old/assets/css/style.scss */
+  .go_to {
+    width: 240px;
+    height: 54px;
+    margin-left: -130px; }
+  /* line 754, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right {
+    width: 80px;
+    height: 80px;
+    line-height: 90px; }
+    /* line 759, C:/Portfolio-old/assets/css/style.scss */
+    .btn-triangle-right .icon {
+      font-size: 38px; }
+  /* line 764, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close.opened {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    top: 30px; }
+  /* line 771, C:/Portfolio-old/assets/css/style.scss */
+  .logo {
+    width: 200px;
+    left: 50px; }
+  /* line 776, C:/Portfolio-old/assets/css/style.scss */
+  .about p {
+    font-size: 30px; }
+  /* line 780, C:/Portfolio-old/assets/css/style.scss */
+  .text-normal {
+    font-size: 40px; }
+  /* line 784, C:/Portfolio-old/assets/css/style.scss */
+  .text-in-write {
+    font-size: 12pt; }
+  /* line 788, C:/Portfolio-old/assets/css/style.scss */
+  .text-obr {
+    width: 250px;
+    font-size: 15pt;
+    margin: 10px;
+    margin-top: 45px; }
+  /* line 795, C:/Portfolio-old/assets/css/style.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 799, C:/Portfolio-old/assets/css/style.scss */
+  .btn-send {
+    width: 240px;
+    height: 54px;
+    margin-left: -120px; } }
+
+@media only screen and (min-width: 800px) {
+  /* line 807, C:/Portfolio-old/assets/css/style.scss */
+  .crossless, .mindg, .arahip {
+    width: 50%;
+    height: 50%; }
+  /* line 812, C:/Portfolio-old/assets/css/style.scss */
+  .go_to {
+    width: 240px;
+    height: 54px;
+    margin-left: -130px; }
+  /* line 818, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right {
+    width: 80px;
+    height: 80px;
+    line-height: 90px; }
+    /* line 823, C:/Portfolio-old/assets/css/style.scss */
+    .btn-triangle-right .icon {
+      font-size: 38px; }
+  /* line 828, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close.opened {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    top: 30px; }
+  /* line 835, C:/Portfolio-old/assets/css/style.scss */
+  .logo {
+    width: 200px;
+    left: 50px; }
+  /* line 840, C:/Portfolio-old/assets/css/style.scss */
+  .about p {
+    font-size: 30px; }
+  /* line 844, C:/Portfolio-old/assets/css/style.scss */
+  .text-normal {
+    font-size: 40px; }
+  /* line 848, C:/Portfolio-old/assets/css/style.scss */
+  .text-in-write {
+    font-size: 12pt; }
+  /* line 852, C:/Portfolio-old/assets/css/style.scss */
+  .text-obr {
+    width: 250px;
+    font-size: 15pt;
+    margin: 20px;
+    margin-top: 45px; }
+  /* line 859, C:/Portfolio-old/assets/css/style.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 863, C:/Portfolio-old/assets/css/style.scss */
+  .btn-send {
+    width: 240px;
+    height: 54px;
+    margin-left: -120px; } }
+
+@media only screen and (min-width: 1280px) {
+  /* line 871, C:/Portfolio-old/assets/css/style.scss */
+  .crossless, .mindg, .arahip {
+    width: 40%;
+    height: 40%; }
+  /* line 876, C:/Portfolio-old/assets/css/style.scss */
+  .go_to {
+    width: 240px;
+    height: 54px;
+    margin-left: -130px; }
+  /* line 882, C:/Portfolio-old/assets/css/style.scss */
+  .btn-triangle-right {
+    width: 80px;
+    height: 80px;
+    line-height: 90px; }
+    /* line 887, C:/Portfolio-old/assets/css/style.scss */
+    .btn-triangle-right .icon {
+      font-size: 38px; }
+  /* line 892, C:/Portfolio-old/assets/css/style.scss */
+  .btn-order-close.opened {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    top: 30px; }
+  /* line 899, C:/Portfolio-old/assets/css/style.scss */
+  .logo {
+    width: 200px;
+    left: 50px; }
+  /* line 904, C:/Portfolio-old/assets/css/style.scss */
+  .about p {
+    font-size: 30px; }
+  /* line 908, C:/Portfolio-old/assets/css/style.scss */
+  .text-normal {
+    font-size: 55px; }
+  /* line 912, C:/Portfolio-old/assets/css/style.scss */
+  .text-in-write {
+    font-size: 15pt; }
+  /* line 916, C:/Portfolio-old/assets/css/style.scss */
+  .text-obr {
+    width: 350px;
+    font-size: 15pt;
+    margin: 20px;
+    margin-top: 70px; }
+  /* line 923, C:/Portfolio-old/assets/css/style.scss */
+  .mail-obr {
+    margin-top: 20px; }
+  /* line 927, C:/Portfolio-old/assets/css/style.scss */
+  .btn-send {
+    width: 240px;
+    height: 54px;
+    margin-left: -120px; } }
+
+/* line 934, C:/Portfolio-old/assets/css/style.scss */
+.container {
+  width: 500px;
+  margin: 50px auto; }
+
+/*# sourceMappingURL=style.css.map */

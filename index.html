@@ -15,7 +15,7 @@
 
 
     <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-full-page/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
 
     <!--[if IE]>
@@ -63,12 +63,24 @@
             <img class="logo" src="assets/img/logotype_black.svg" width=200>
             <h2 class="text-normal">Будьте на высоте!</h2>
             <p class="text-in-write">Напишите нам, и мы создадим отличный сайт, соответствующий Вашим требованиям.</p>
-            <div class="obr_connect">
-                <input type="text" class="name-obr text-obr" maxlength="25" placeholder="Ваше имя"><br>
-                <input type="email" class="mail-obr text-obr" maxlength="30" placeholder="Ваша почта"><br>
-                <textarea class="site-obr" placeholder="Описание Вашего проекта"></textarea>
+            <div class="container">
+              
+    <div class="form-group">
+      <input type="text" required="required"/>
+      <label class="control-label" for="input">Textfield</label><i class="bar"></i>
+    </div>
+                <div class="form-group">
+      <input type="text" required="required"/>
+      <label class="control-label" for="input">Textfield</label><i class="bar"></i>
+    </div>
+    <div class="form-group">
+      <textarea required="required"></textarea>
+      <label class="control-label" for="textarea">Textarea</label><i class="bar"></i>
+    </div>
                 <button class="btn-send" type="submit">ОТПРАВИТЬ</button>
-            </div>
+            
+                    </div>
+                
         </div>
         <div class="btn-order-close">
             <div class="x"></div>
@@ -98,6 +110,19 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+            
+            btn_contact = $('.btn-contact');
+            btn_order_close = $('.btn-order-close');
+            contact_popup = $('.contact-background');
+            btn_contact_animation = $('.btn-contact-animation');
+            
+            function removeClosed() {
+                btn_contact.removeClass('closed'); 
+                btn_order_close.removeClass('closed');
+                contact_popup.removeClass('closed');
+                btn_contact_animation.removeClass('closed');
+            }
+            
             $('#fullpage').fullpage({
                 anchors: ['Crossless', 'MindGuests', 'Arahipster'],
                 sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
@@ -107,29 +132,27 @@
             });
             
             $('.btn-contact, .btn-order-close').on('click', function() {
-                $('.btn-contact').toggleClass('opened'); 
-                $('.btn-order-close').toggleClass('opened');
-                $('.contact-background').toggleClass('opened');
-                $('.btn-contact-animation').toggleClass('opened');
+                btn_contact.toggleClass('opened'); 
+                btn_order_close.toggleClass('opened');
+                contact_popup.toggleClass('opened');
+                btn_contact_animation.toggleClass('opened');
             });
             
             
             $('.btn-order-close').on('click', function() {
-                $('.btn-contact').toggleClass('closed'); 
-                $('.btn-order-close').toggleClass('closed');
-                $('.contact-background').toggleClass('closed');
-                $('.btn-contact-animation').toggleClass('closed');
+                btn_contact.toggleClass('closed'); 
+                btn_order_close.toggleClass('closed');
+                contact_popup.toggleClass('closed');
+                btn_contact_animation.toggleClass('closed'); 
+                setTimeout( removeClosed, 600 );
+                
             });
             
-            
+            /*
             $('.btn-contact-animation').mousemove(function() {
-                $('.btn-contact').removeClass('closed'); 
-                $('.btn-order-close').removeClass('closed');
-                $('.contact-background').removeClass('closed');
-                $('.btn-contact-animation').removeClass('closed');
+
             });
-            
-            
+            */
             
         });
     </script>
