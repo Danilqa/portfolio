@@ -1,0 +1,26 @@
+/* line 1, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.about {
+  right: 30px;
+  top: 50px;
+  position: fixed;
+  z-index: 70;
+  transition: 0.2s; }
+  /* line 8, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  .about p {
+    font-size: 30px;
+    color: white; }
+
+/* line 14, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.about:hover {
+  transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
+  right: 35px;
+  top: 48px;
+  transition: 0.35s;
+  -moz-transition: 0.35s;
+  -webkit-transition: 0.35s;
+  cursor: pointer; }
+
+/*# sourceMappingURL=about.css.map */

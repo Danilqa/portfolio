@@ -8,7 +8,7 @@
   top: 30px;
   border-radius: 100%;
   background: #fff;
-  border: 2px solid #000;
+  border: 1px solid #000;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -20,7 +20,7 @@
   }
 
   &:hover {
-    background: #B18340;
+    background: #337ab7;
     cursor: pointer;
   }
 }

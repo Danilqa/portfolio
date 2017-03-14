@@ -52,7 +52,8 @@
 */
 @keyframes btn-case-opening {
   to {
-    transform: scale(10, 10); } }
+    transform: scale(10, 10);
+    opacity: 0; } }
 
 @keyframes popup-case-opening {
   to {

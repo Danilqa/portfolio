@@ -212,17 +212,6 @@ a {
     animation-iteration-count: 2;*/
 }
 
-.about {
-    right: 25px;
-    top: 50px;
-    position: fixed;
-    z-index: 70;
-}
-
-.about p {
-    font-size: 30px;
-    margin-right: 16px
-}
 
 
 

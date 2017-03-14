@@ -88,7 +88,7 @@ h1, h2, h3, h4 {
   padding: 8px 9px;
 
   &:focus {
-    border-bottom: 2px solid #B18340;
+    border-bottom: 2px solid #337ab7;
   }
 }
 
@@ -108,12 +108,12 @@ textarea {
 
   &:focus {
     border: 0;
-    border-bottom: 1.5px solid #B18340;
+    border-bottom: 1.5px solid #337ab7;
   }
 }
 
 .btn-send {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 35px;
   position: absolute;
   bottom: 50px;
@@ -128,7 +128,7 @@ textarea {
   transition: 0.5s;
 
   &:hover {
-    background: #B18340;
+    background: #337ab7;
     transition: 0.5s;
     cursor: pointer;
   }
@@ -219,17 +219,7 @@ a {
   }
 }
 
-.about {
-  right: 25px;
-  top: 50px;
-  position: fixed;
-  z-index: 70;
 
-  p {
-    font-size: 30px;
-    margin-right: 16px;
-  }
-}
 
 .logo {
   position: fixed;
@@ -265,7 +255,7 @@ a {
   &:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     transition: 0.5s;
-    background-color: #B18340;
+    background-color: #337ab7;
   }
 }
 
@@ -316,7 +306,7 @@ a {
 
   &:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    background-color: #B18340;
+    background-color: #337ab7;
     transition: 0.5s;
   }
 }
@@ -355,7 +345,7 @@ a {
   &.opened {
     z-index: 80;
     animation-name: btn-case-opening;
-    animation-duration: 0.3s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
     background: #ffffff;
     color: #ffffff;
@@ -413,9 +403,6 @@ a {
     left: 25px;
   }
 
-  .about p {
-    font-size: 25px;
-  }
 
   .text-normal {
     font-size: 40px;
@@ -475,10 +462,6 @@ a {
   .logo {
     width: 200px;
     left: 50px;
-  }
-
-  .about p {
-    font-size: 30px;
   }
 
   .text-normal {
@@ -541,9 +524,6 @@ a {
     left: 50px;
   }
 
-  .about p {
-    font-size: 30px;
-  }
 
   .text-normal {
     font-size: 40px;
@@ -605,9 +585,6 @@ a {
     left: 50px;
   }
 
-  .about p {
-    font-size: 30px;
-  }
 
   .text-normal {
     font-size: 55px;
