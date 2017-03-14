@@ -1,0 +1,227 @@
+.btn-contact.opened {}
+
+.btn-order-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  border-radius: 100%;
+  background: #fff;
+  border: 2px solid #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+  &.opened {
+    width: 80px;
+    height: 80px;
+  }
+
+  &:hover {
+    background: #B18340;
+    cursor: pointer;
+  }
+}
+
+.contact-background .header {
+  width: 100%;
+  text-align: center;
+}
+
+.x {
+  position: relative;
+  left: 50%;
+  margin-left: -26px;
+  margin-top: -24px;
+  top: 50%;
+
+  &::before, &::after {
+    content: "";
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 2px 2px 0px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    transform: rotate(45deg);
+  }
+
+  &::before {
+    border-width: 0px 2px 2px 0px;
+    top: 0px;
+  }
+
+  &::after {
+    border-width: 2px 0px 0px 2px;
+    top: 28px;
+  }
+}
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  display: block;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 20px 10px;
+  position: relative;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+  height: 14px !important;
+  width: 14px !important;
+  margin: -6px 0 0 -6px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  background: #fff;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  height: 14px !important;
+  width: 14px !important;
+  margin: -6px 0 0 -6px !important;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  background: transparent;
+}
+
+#fp-nav ul li .fp-tooltip {
+  top: 3px;
+}
+
+// The Styles for the form
+fieldset {
+	margin: $mf-fieldset-margin;
+	padding: 0;
+	border: none;
+}
+
+.form-radio,
+.form-group {
+	position: relative;
+	margin-top: ($mf-gap * 1.5);
+	margin-bottom: ($mf-gap * 1.5);
+}
+
+.form-inline {
+	> .form-group,
+	> .btn {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+}
+
+.form-group {
+	// scss-lint:disable QualifyingElement, NestingDepth
+	input {
+		height: ($mf-font-size * 1.9);
+	}
+
+	textarea {
+		resize: none;
+	}
+
+	select {
+		width: 100%;
+		font-size: $mf-font-size;
+		height: ($mf-font-size * 1.6);
+		padding: $mf-spacer $mf-spacer ($mf-spacer / 2);
+		background: none;
+		border: none;
+		line-height: 1.6;
+		box-shadow: none;
+	}
+
+	.control-label {
+		position: absolute;
+		top: ($mf-font-size / 4);
+		pointer-events: none;
+		padding-left: $mf-spacer;
+		z-index: 1;
+		color: $mf-label-color;
+		font-size: $mf-font-size;
+		font-weight: normal;
+		transition: all $mf-transition-speed ease;
+	}
+
+	.bar {
+		position: relative;
+		border-bottom: ($mf-font-size / 16) solid $mf-border-color;
+		display: block;
+		
+		&::before {
+			content: '';
+			height: ($mf-font-size / 8);
+			width: 0;
+			left: 50%;
+			bottom: ($mf-font-size / -16);
+			position: absolute;
+			background: $mf-focus-color;
+			transition: left $mf-transition-speed ease, width $mf-transition-speed ease;
+			z-index: 2;
+		}
+	}
+
+	input,
+	textarea {
+		display: block;
+		background: none;
+		padding: $mf-spacer $mf-spacer ($mf-spacer / 2);
+		font-size: $mf-font-size;
+		border-width: 0;
+		border-color: transparent;
+		line-height: 1.9;
+		width: 100%;
+		color: transparent;
+		transition: all $mf-transition-speed ease;
+		box-shadow: none;
+	}
+
+	input[type="file"] {
+		line-height: 1;
+
+		~ .bar {
+			display: none;
+		}
+	}
+
+	select,
+	input:focus,
+	input:valid,
+	input.form-file,
+	input.has-value,
+	textarea:focus,
+	textarea:valid,
+	textarea.form-file,
+	textarea.has-value {
+		color: $mf-input-color;
+
+		~ .control-label {
+			font-size: $mf-active-font-size;
+			color: $mf-active-color;
+			top: $mf-active-top;
+			left: 0;
+		}
+	}
+
+	select,
+	input,
+	textarea {
+		&:focus {
+			outline: none;
+
+			~ .control-label {
+				color: $mf-focus-color;
+			}
+
+			~ .bar {
+				&::before {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+}
