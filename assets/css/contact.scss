@@ -137,13 +137,13 @@ fieldset {
 	.control-label {
 		position: absolute;
 		top: ($mf-font-size / 4);
-		pointer-events: none;
-		padding-left: $mf-spacer;
+        pointer-events: none;
+		margin-left: ($mf-gap * (-10));
 		z-index: 1;
-		color: $mf-label-color;
+		color: $mf-input-color;
 		font-size: $mf-font-size;
 		font-weight: normal;
-		transition: all $mf-transition-speed ease;
+        transition: all $mf-transition-speed ease;
 	}
 
 	.bar {
@@ -172,7 +172,6 @@ fieldset {
 		font-size: $mf-font-size;
 		border-width: 0;
 		border-color: transparent;
-		line-height: 1.9;
 		width: 100%;
 		color: transparent;
 		transition: all $mf-transition-speed ease;
@@ -202,7 +201,7 @@ fieldset {
 			font-size: $mf-active-font-size;
 			color: $mf-active-color;
 			top: $mf-active-top;
-			left: 0;
+			left: ($mf-font-size * 15);
 		}
 	}
 
