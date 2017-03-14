@@ -147,7 +147,7 @@ a {
     vertical-align: middle; }
 
 /* line 154, C:/Portfolio-old-style/assets/css/base.scss */
-.go_to {
+.btn-case {
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -238,7 +238,7 @@ a {
   bottom: 20px; }
 
 /* line 251, C:/Portfolio-old-style/assets/css/base.scss */
-.go_to {
+.btn-case {
   z-index: 11;
   width: 240px;
   height: 54px;
@@ -253,7 +253,7 @@ a {
   transition: 0.5s;
   cursor: pointer; }
   /* line 266, C:/Portfolio-old-style/assets/css/base.scss */
-  .go_to:hover {
+  .btn-case:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     transition: 0.5s;
     background-color: #B18340; }
@@ -331,210 +331,237 @@ a {
     animation-fill-mode: forwards;
     animation-direction: reverse; }
 
+/*  
+    ========== КЕЙСЫ ============
+*/
+/* line 356, C:/Portfolio-old-style/assets/css/base.scss */
+.btn-case-animation.opened {
+  z-index: 80;
+  animation-name: btn-case-opening;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  background: #ffffff;
+  color: #ffffff; }
+  /* line 363, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-case-animation.opened:hover {
+    color: #ffffff;
+    background: #ffffff; }
+
+/* line 369, C:/Portfolio-old-style/assets/css/base.scss */
+.btn-case-animation.closed {
+  z-index: 80;
+  animation-name: btn-case-opening;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse; }
+
+/*
+    ================================
+*/
 @media only screen and (min-width: 200px) {
-  /* line 352, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 383, C:/Portfolio-old-style/assets/css/base.scss */
   .crossless, .mindg, .arahip {
     width: 50%;
     height: 50%; }
-  /* line 357, C:/Portfolio-old-style/assets/css/base.scss */
-  .go_to {
+  /* line 388, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-case {
     width: 200px;
     height: 54px;
     margin-left: -110px; }
-  /* line 363, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 394, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-triangle-right {
     width: 60px;
     height: 60px;
     line-height: 70px; }
-    /* line 368, C:/Portfolio-old-style/assets/css/base.scss */
+    /* line 399, C:/Portfolio-old-style/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 30px;
       margin-bottom: 20px; }
-  /* line 374, C:/Portfolio-old-style/assets/css/base.scss */
-  .btn-order-close.opened {
+  /* line 405, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-popup-close.opened {
     width: 60px;
     height: 60px;
     right: 30px;
     top: 40px; }
-  /* line 381, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 412, C:/Portfolio-old-style/assets/css/base.scss */
   .logo {
     width: 150px;
     left: 25px; }
-  /* line 386, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 417, C:/Portfolio-old-style/assets/css/base.scss */
   .about p {
     font-size: 25px; }
-  /* line 390, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 421, C:/Portfolio-old-style/assets/css/base.scss */
   .text-normal {
     font-size: 40px; }
-  /* line 394, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 425, C:/Portfolio-old-style/assets/css/base.scss */
   .text-in-write {
     font-size: 12pt; }
-  /* line 398, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 429, C:/Portfolio-old-style/assets/css/base.scss */
   .text-obr {
     width: 200px;
     font-size: 12pt;
     margin: 10px;
     margin-top: 45px; }
-  /* line 405, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 436, C:/Portfolio-old-style/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 409, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 440, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-send {
     width: 200px;
     height: 54px;
     margin-left: -100px; } }
 
 @media only screen and (min-width: 500px) {
-  /* line 417, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 448, C:/Portfolio-old-style/assets/css/base.scss */
   .crossless, .mindg, .arahip {
     width: 50%;
     height: 50%; }
-  /* line 422, C:/Portfolio-old-style/assets/css/base.scss */
-  .go_to {
+  /* line 453, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px; }
-  /* line 428, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 459, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-triangle-right {
     width: 80px;
     height: 80px;
     line-height: 90px; }
-    /* line 433, C:/Portfolio-old-style/assets/css/base.scss */
+    /* line 464, C:/Portfolio-old-style/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 38px; }
-  /* line 438, C:/Portfolio-old-style/assets/css/base.scss */
-  .btn-order-close.opened {
+  /* line 469, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
     top: 30px; }
-  /* line 445, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 476, C:/Portfolio-old-style/assets/css/base.scss */
   .logo {
     width: 200px;
     left: 50px; }
-  /* line 450, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 481, C:/Portfolio-old-style/assets/css/base.scss */
   .about p {
     font-size: 30px; }
-  /* line 454, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 485, C:/Portfolio-old-style/assets/css/base.scss */
   .text-normal {
     font-size: 40px; }
-  /* line 458, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 489, C:/Portfolio-old-style/assets/css/base.scss */
   .text-in-write {
     font-size: 12pt; }
-  /* line 462, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 493, C:/Portfolio-old-style/assets/css/base.scss */
   .text-obr {
     width: 250px;
     font-size: 15pt;
     margin: 10px;
     margin-top: 45px; }
-  /* line 469, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 500, C:/Portfolio-old-style/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 473, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 504, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;
     margin-left: -120px; } }
 
 @media only screen and (min-width: 800px) {
-  /* line 481, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 512, C:/Portfolio-old-style/assets/css/base.scss */
   .crossless, .mindg, .arahip {
     width: 50%;
     height: 50%; }
-  /* line 486, C:/Portfolio-old-style/assets/css/base.scss */
-  .go_to {
+  /* line 517, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px; }
-  /* line 492, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 523, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-triangle-right {
     width: 80px;
     height: 80px;
     line-height: 90px; }
-    /* line 497, C:/Portfolio-old-style/assets/css/base.scss */
+    /* line 528, C:/Portfolio-old-style/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 38px; }
-  /* line 502, C:/Portfolio-old-style/assets/css/base.scss */
-  .btn-order-close.opened {
+  /* line 533, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
     top: 30px; }
-  /* line 509, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 540, C:/Portfolio-old-style/assets/css/base.scss */
   .logo {
     width: 200px;
     left: 50px; }
-  /* line 514, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 545, C:/Portfolio-old-style/assets/css/base.scss */
   .about p {
     font-size: 30px; }
-  /* line 518, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 549, C:/Portfolio-old-style/assets/css/base.scss */
   .text-normal {
     font-size: 40px; }
-  /* line 522, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 553, C:/Portfolio-old-style/assets/css/base.scss */
   .text-in-write {
     font-size: 12pt; }
-  /* line 526, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 557, C:/Portfolio-old-style/assets/css/base.scss */
   .text-obr {
     width: 250px;
     font-size: 15pt;
     margin: 20px;
     margin-top: 45px; }
-  /* line 533, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 564, C:/Portfolio-old-style/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 537, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 568, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;
     margin-left: -120px; } }
 
 @media only screen and (min-width: 1280px) {
-  /* line 545, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 576, C:/Portfolio-old-style/assets/css/base.scss */
   .crossless, .mindg, .arahip {
     width: 40%;
     height: 40%; }
-  /* line 550, C:/Portfolio-old-style/assets/css/base.scss */
-  .go_to {
+  /* line 581, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px; }
-  /* line 556, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 587, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-triangle-right {
     width: 80px;
     height: 80px;
     line-height: 90px; }
-    /* line 561, C:/Portfolio-old-style/assets/css/base.scss */
+    /* line 592, C:/Portfolio-old-style/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 38px; }
-  /* line 566, C:/Portfolio-old-style/assets/css/base.scss */
-  .btn-order-close.opened {
+  /* line 597, C:/Portfolio-old-style/assets/css/base.scss */
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
     top: 30px; }
-  /* line 573, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 604, C:/Portfolio-old-style/assets/css/base.scss */
   .logo {
     width: 200px;
     left: 50px; }
-  /* line 578, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 609, C:/Portfolio-old-style/assets/css/base.scss */
   .about p {
     font-size: 30px; }
-  /* line 582, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 613, C:/Portfolio-old-style/assets/css/base.scss */
   .text-normal {
     font-size: 55px; }
-  /* line 586, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 617, C:/Portfolio-old-style/assets/css/base.scss */
   .text-in-write {
     font-size: 15pt; }
-  /* line 590, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 621, C:/Portfolio-old-style/assets/css/base.scss */
   .text-obr {
     width: 350px;
     font-size: 15pt;
     margin: 20px;
     margin-top: 70px; }
-  /* line 597, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 628, C:/Portfolio-old-style/assets/css/base.scss */
   .mail-obr {
     margin-top: 20px; }
-  /* line 601, C:/Portfolio-old-style/assets/css/base.scss */
+  /* line 632, C:/Portfolio-old-style/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;

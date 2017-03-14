@@ -66,3 +66,35 @@
     background: transparent;
   }
 }
+
+/*
+    ======== КЕЙСЫ =======
+*/
+
+@keyframes btn-case-opening {
+  to {
+    transform: scale(10, 10);
+  }
+}
+
+@keyframes popup-case-opening {
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 0;
+  }
+}
+
+@keyframes popup-case-closing {
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 0;
+  }
+}
+
+/*
+    ====================
+*/

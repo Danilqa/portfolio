@@ -151,7 +151,7 @@ a {
   }
 }
 
-.go_to {
+.btn-case {
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -248,7 +248,7 @@ a {
   bottom: 20px;
 }
 
-.go_to {
+.btn-case {
   z-index: 11;
   width: 240px;
   height: 54px;
@@ -348,13 +348,44 @@ a {
   }
 }
 
+/*  
+    ========== КЕЙСЫ ============
+*/
+
+.btn-case-animation {  
+  &.opened {
+    z-index: 80;
+    animation-name: btn-case-opening;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    background: #ffffff;
+    color: #ffffff;
+      &:hover {
+        color: #ffffff;
+        background: #ffffff;    
+      }
+  }
+
+  &.closed {
+    z-index: 80;
+    animation-name: btn-case-opening;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+}
+
+/*
+    ================================
+*/
+
 @media only screen and (min-width: 200px) {
   .crossless, .mindg, .arahip {
     width: 50%;
     height: 50%;
   }
 
-  .go_to {
+  .btn-case {
     width: 200px;
     height: 54px;
     margin-left: -110px;
@@ -371,7 +402,7 @@ a {
     }
   }
 
-  .btn-order-close.opened {
+  .btn-popup-close.opened {
     width: 60px;
     height: 60px;
     right: 30px;
@@ -419,7 +450,7 @@ a {
     height: 50%;
   }
 
-  .go_to {
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px;
@@ -435,7 +466,7 @@ a {
     }
   }
 
-  .btn-order-close.opened {
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
@@ -483,7 +514,7 @@ a {
     height: 50%;
   }
 
-  .go_to {
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px;
@@ -499,7 +530,7 @@ a {
     }
   }
 
-  .btn-order-close.opened {
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
@@ -547,7 +578,7 @@ a {
     height: 40%;
   }
 
-  .go_to {
+  .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px;
@@ -563,7 +594,7 @@ a {
     }
   }
 
-  .btn-order-close.opened {
+  .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;

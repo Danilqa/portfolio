@@ -7,7 +7,7 @@
     <title>ВЫСОТА</title>
 
     <link rel="icon" type="image/png" href="assets/img/iconicon.ico">
-    
+
     <meta name="author" content="Миша" />
     <meta name="description" content="Тупой арбузик" />
     <meta name="keywords" content="петух, олежа, писюн" />
@@ -34,29 +34,27 @@
             <div class="intro">
                 <!--<h1>CROSSLESS</h1>-->
                 <img src="assets/img/kross.png" class="crossless">
-                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-1">
             <div class="intro">
                 <!--<h1>MIND GUESTS</h1>-->
                 <img src="assets/img/mg.png" class="mindg">
-                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-2">
             <div class="intro">
                 <!--<h1>ARAHIPSTER</h1>-->
                 <img src="assets/img/ARAHIP.png" class="arahip">
-                <button class="go_to btn-shadow" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
 
     </div>
 
     <img class="logo" src="assets/img/logotype_white.svg" width=200>
-        
-    <div class="btn-close"></div>
     
     <div class="contact-background">
         <div class="header">
@@ -64,35 +62,41 @@
             <h2 class="text-normal">Будьте на высоте!</h2>
             <p class="text-in-write">Напишите нам, и мы создадим отличный сайт, соответствующий Вашим требованиям.</p>
             <div class="container">
-              
-    <div class="form-group">
-      <input type="text" required="required"/>
-      <label class="control-label" for="input">Textfield</label><i class="bar"></i>
-    </div>
+
                 <div class="form-group">
-      <input type="text" required="required"/>
-      <label class="control-label" for="input">Textfield</label><i class="bar"></i>
-    </div>
-    <div class="form-group">
-      <textarea required="required"></textarea>
-      <label class="control-label" for="textarea">Textarea</label><i class="bar"></i>
-    </div>
+                    <input type="text" required="required" />
+                    <label class="control-label" for="input">Textfield</label><i class="bar"></i>
+                </div>
+                <div class="form-group">
+                    <input type="text" required="required" />
+                    <label class="control-label" for="input">Textfield</label><i class="bar"></i>
+                </div>
+                <div class="form-group">
+                    <textarea required="required"></textarea>
+                    <label class="control-label" for="textarea">Textarea</label><i class="bar"></i>
+                </div>
                 <button class="btn-send" type="submit">ОТПРАВИТЬ</button>
-            
-                    </div>
-                
+
+            </div>
+
         </div>
-        <div class="btn-order-close">
+        <div class="btn-popup-close">
             <div class="x"></div>
         </div>
     </div>
 
     <div class="btn-contact-animation"></div>
-    
+
+    <div class="popup-case">
+        <div class="btn-popup-close">
+            <div class="x"></div>
+        </div>
+    </div>
+
     <div class="btn-triangle-right btn-contact btn-shadow">
         <i class="icon icon-edit"></i>
     </div>
-    
+
     <div class="about">
         <a href="#">
             <p>О нас</p>
@@ -110,19 +114,33 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+
+           
+            btn_popup_close = '.btn-popup-close';
+            
+            btn_contact_animation = $('.btn-contact-animation');
+            btn_case_animation = $('.btn-case-animation');
             
             btn_contact = $('.btn-contact');
-            btn_order_close = $('.btn-order-close');
-            contact_popup = $('.contact-background');
-            btn_contact_animation = $('.btn-contact-animation');
-            
-            function removeClosed() {
-                btn_contact.removeClass('closed'); 
-                btn_order_close.removeClass('closed');
-                contact_popup.removeClass('closed');
+            btn_case = $('.btn-case');
+
+            popup_contact = $('.contact-background');
+            popup_case = $('.popup-case');
+
+            function removeContactClosed() {
+                btn_contact.removeClass('closed');
+                $(btn_popup_close).removeClass('closed');
+                popup_contact.removeClass('closed');
                 btn_contact_animation.removeClass('closed');
             }
             
+            function removeCaseClosed() {
+                btn_case.removeClass('closed');
+                $(btn_popup_close).removeClass('closed');
+                popup_case.removeClass('closed');
+                btn_case_animation.removeClass('closed');
+            }
+
             $('#fullpage').fullpage({
                 anchors: ['Crossless', 'MindGuests', 'Arahipster'],
                 sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
@@ -130,30 +148,47 @@
                 navigationPosition: 'right',
                 navigationTooltips: ['Crossless', 'Mind Guests', 'Arahipster']
             });
-            
-            $('.btn-contact, .btn-order-close').on('click', function() {
-                btn_contact.toggleClass('opened'); 
-                btn_order_close.toggleClass('opened');
-                contact_popup.toggleClass('opened');
-                btn_contact_animation.toggleClass('opened');
-            });
-            
-            
-            $('.btn-order-close').on('click', function() {
-                btn_contact.toggleClass('closed'); 
-                btn_order_close.toggleClass('closed');
-                contact_popup.toggleClass('closed');
-                btn_contact_animation.toggleClass('closed'); 
-                setTimeout( removeClosed, 600 );
-                
-            });
-            
-            /*
-            $('.btn-contact-animation').mousemove(function() {
 
+            // Кнопка "Написать нам"
+            btn_contact.on('click', function () {
+                $(this).toggleClass('opened');
+                popup_contact.toggleClass('opened');
+                popup_contact.find( btn_popup_close ).toggleClass('opened');
             });
-            */
             
+            btn_case.on('click', function () {
+                console.log("Case");
+                $(this).toggleClass("opened");
+                popup_case.toggleClass("opened");
+                popup_case.find( btn_popup_close ).toggleClass('opened');
+            });
+                        
+            // Закрыть кейсы
+            popup_case.find( btn_popup_close ).on('click', function () {
+                btn_case.toggleClass('closed');
+                $(this).toggleClass('closed');
+                popup_case.toggleClass('closed');
+                btn_case_animation.toggleClass('closed');
+                setTimeout(removeCaseClosed, 600);
+               
+                btn_case.removeClass("opened");
+                popup_case.removeClass("opened");
+                popup_case.find( btn_popup_close ).toggleClass('opened');
+            });
+            
+            // Закрыть "Написать нам"
+            popup_contact.find( btn_popup_close ).on('click', function () {
+                btn_contact.toggleClass('closed');
+                $(this).toggleClass('closed');
+                popup_contact.toggleClass('closed');
+                btn_contact_animation.toggleClass('closed');
+                setTimeout(removeContactClosed, 600);
+            
+                btn_contact.removeClass('opened');
+                popup_contact.removeClass('opened');
+                popup_contact.find( btn_popup_close ).toggleClass('opened');
+            });
+
         });
     </script>
 
