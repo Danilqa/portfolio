@@ -804,6 +804,142 @@ fieldset {
 .about:hover {
   cursor: pointer; }
 
+/* line 18, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.about-background {
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  position: fixed;
+  opacity: 0;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  /* line 34, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  .about-background.opened {
+    z-index: 81;
+    animation-name: about-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 41, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  .about-background.closed {
+    z-index: 81;
+    animation-name: about-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+
+/* line 53, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.btn-about-animation.opened {
+  z-index: 80;
+  animation-name: btn-about-opening;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  background: #ffffff;
+  color: #ffffff; }
+  /* line 60, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  .btn-about-animation.opened:hover {
+    color: #ffffff;
+    background: #ffffff; }
+
+/* line 66, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.btn-about-animation.closed {
+  z-index: 80;
+  animation-name: btn-about-opening;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse; }
+
+/*
+   ===== Начинка в "О нас" =====
+*/
+/* line 79, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.about-header {
+  text-align: center; }
+
+/* line 83, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.about-normal {
+  margin-top: 100px; }
+
+/* line 87, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.profile {
+  height: 450px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative; }
+
+/* line 99, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.photo {
+  width: 300px;
+  height: 170px;
+  border: 0;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 111, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.danya-prof {
+  background-image: url(../img/profile/danya.jpg); }
+
+/* line 115, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.misha-prof {
+  background-image: url(../img/profile/misha.jpg); }
+
+/* line 119, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.name-prof {
+  color: black;
+  font-size: 25px;
+  margin-top: 20px; }
+
+/* line 125, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.text-prof {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px; }
+
+/* line 131, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.social {
+  bottom: -55px;
+  height: 100px;
+  width: 250px;
+  border: 0;
+  border-top: 1px solid black;
+  margin-left: 25px;
+  position: absolute; }
+
+/* line 141, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.fa {
+  width: 30px;
+  font-size: 25px !important;
+  margin-top: 3px;
+  transition: 0.2s; }
+
+/* line 148, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.fa-vk:hover {
+  color: #45668e;
+  transition: 0.2s; }
+
+/* line 153, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.fa-instagram:hover {
+  color: #e1306c;
+  transition: 0.2s; }
+
+/* line 158, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+.social table td a {
+  color: black; }
+
 /*
     ====== АНИМАЦИЯ ======
 */
@@ -876,6 +1012,31 @@ fieldset {
 
 /*
     ====================
+*/
+/*
+   ====== О нас ========
+*/
+@keyframes btn-about-opening {
+  to {
+    transform: scale(10, 10);
+    opacity: 0; } }
+
+@keyframes about-background-opened {
+  to {
+    width: 700px;
+    height: 850px;
+    opacity: 1;
+    border-radius: 2%; } }
+
+@keyframes about-background-closed {
+  to {
+    width: 700px;
+    height: 850px;
+    opacity: 1;
+    border-radius: 2%; } }
+
+/*
+    ===================
 */
 
 /*# sourceMappingURL=style.css.map */

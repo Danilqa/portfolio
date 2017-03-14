@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-full-page/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -88,6 +89,9 @@
     <div class="btn-contact-animation"></div>
 
     <div class="popup-case">
+        <div class="header">
+                <img class="logo" src="assets/img/logotype_black.svg" width=200>
+            </div>
         <div class="btn-popup-close">
             <div class="x"></div>
         </div>
@@ -97,8 +101,64 @@
         <i class="icon icon-edit"></i>
     </div>
 
-    <div class="btn-about">
+    <div class="btn-about  btn-about-animation">
         <div class="about"><p>О нас</p></div>
+    </div>
+    
+    <div class="about-background">
+        <div class="about-header">
+            <h2 class="text-normal about-normal">О нас</h2>
+            <p class="text-in-write">Мы тчательно работаем над каждым проектом,<br>а Даня пидор.</p>
+            
+            <table align="center">
+                <td>
+                    <div class="profile">
+                        <div class="photo danya-prof"></div>
+                        <h3 class="name-prof">Ситдиков Даниил</h3>
+                        <p class="text-prof">Тот еще пидор,<br>дон-обрубон.</p>
+                        <div class="social">
+                            <table align="center">
+                                <td>
+                                    <a href="https://vk.com/stdkv">
+                                    <i class="fa fa-vk" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.instagram.com/d.stdkv/">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="profile">
+                        <div class="photo misha-prof"></div>
+                        <h3 class="name-prof">Иванющенков Михаил</h3>
+                        <p class="text-prof">Пиздатый парниша.</p>
+                        <div class="social">
+                            <table align="center">
+                                <td>
+                                    <a href="https://vk.com/mikael21">
+                                    <i class="fa fa-vk" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.instagram.com/mikael_iv/">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </table>
+        </div>
+        
+        <div class="btn-popup-close">
+            <div class="x"></div>
+        </div>
     </div>
 
 
@@ -118,12 +178,15 @@
             
             btn_contact_animation = $('.btn-contact-animation');
             btn_case_animation = $('.btn-case-animation');
+            btn_about_animation = $('.btn-about-animation');
             
             btn_contact = $('.btn-contact');
             btn_case = $('.btn-case');
+            btn_about = $('.btn-about');
 
             popup_contact = $('.contact-background');
             popup_case = $('.popup-case');
+            popup_about = $('.about-background');
 
             function removeContactClosed() {
                 btn_contact.removeClass('closed');
@@ -137,6 +200,13 @@
                 $(btn_popup_close).removeClass('closed');
                 popup_case.removeClass('closed');
                 btn_case_animation.removeClass('closed');
+            }
+            
+            function removeAboutClosed() {
+                btn_about.removeClass('closed');
+                $(btn_popup_close).removeClass('closed');
+                popup_about.removeClass('closed');
+                btn_about_animation.removeClass('closed');
             }
 
             $('#fullpage').fullpage({
@@ -154,11 +224,19 @@
                 popup_contact.find( btn_popup_close ).toggleClass('opened');
             });
             
+            // Кнопка "Открыть кейс"
             btn_case.on('click', function () {
                 console.log("Case");
                 $(this).toggleClass("opened");
                 popup_case.toggleClass("opened");
                 popup_case.find( btn_popup_close ).toggleClass('opened');
+            });
+            
+            // Надпись "О нас"
+            btn_about.on('click', function () {
+                $(this).toggleClass('opened');
+                popup_about.toggleClass('opened');
+                popup_about.find( btn_popup_close ).toggleClass('opened');
             });
                         
             // Закрыть кейсы
@@ -187,6 +265,20 @@
                 popup_contact.find( btn_popup_close ).toggleClass('opened');
             });
             
+            // Закрыть "О нас"
+            popup_about.find( btn_popup_close ).on('click', function () {
+                btn_about.toggleClass('closed');
+                $(this).toggleClass('closed');
+                popup_about.toggleClass('closed');
+                btn_about_animation.toggleClass('closed');
+                setTimeout(removeAboutClosed, 600);
+            
+                btn_about.removeClass('opened');
+                popup_about.removeClass('opened');
+                popup_about.find( btn_popup_close ).toggleClass('opened');
+            });
+            
+            // Текстовое поле в "Написать нам"
             var textarea = document.querySelector('textarea');
 
             textarea.addEventListener('keydown', autosize);

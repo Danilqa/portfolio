@@ -12,6 +12,149 @@
 }
 
 .about:hover {
-    
     cursor: pointer;
+}
+
+.about-background {
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    background: #fff;
+    position: fixed;
+    opacity: 0;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+    
+    &.opened {
+    z-index: 81;
+    animation-name: about-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+  }
+
+  &.closed {
+    z-index: 81;
+    animation-name: about-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+}
+
+.btn-about-animation { 
+    
+    
+  &.opened {
+    z-index: 80;
+    animation-name: btn-about-opening;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    background: #ffffff;
+    color: #ffffff;
+      &:hover {
+        color: #ffffff;
+        background: #ffffff;    
+      }
+  }
+
+  &.closed {
+    z-index: 80;
+    animation-name: btn-about-opening;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+  }
+}
+
+/*
+   ===== Начинка в "О нас" =====
+*/
+
+.about-header {
+    text-align: center;
+}
+
+.about-normal {
+    margin-top: 100px;
+}
+
+.profile {
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+
+.photo {
+    width: 300px;
+    height: 170px;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.danya-prof {
+    background-image: url(../img/profile/danya.jpg);
+}
+
+.misha-prof {
+    background-image: url(../img/profile/misha.jpg);
+}
+
+.name-prof {
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.text-prof {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.social {
+    bottom: -55px;
+    height: 100px;
+    width: 250px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.fa {
+    width: 30px;
+    font-size: 25px !important;
+    margin-top: 3px;
+    transition: 0.2s;
+}
+
+.fa-vk:hover {
+    color: #45668e;
+    transition: 0.2s;
+}
+
+.fa-instagram:hover {
+    color: #e1306c;
+    transition: 0.2s;
+}
+
+.social table td a {
+    color: black;
 }

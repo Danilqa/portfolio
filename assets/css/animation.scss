@@ -99,3 +99,36 @@
 /*
     ====================
 */
+
+/*
+   ====== О нас ========
+*/
+
+@keyframes btn-about-opening {
+  to {
+    transform: scale(10, 10);
+      opacity: 0;
+  }
+}
+
+@keyframes about-background-opened {
+  to {
+    width: 700px;
+    height: 850px;
+    opacity: 1;
+    border-radius: 2%;
+  }
+}
+
+@keyframes about-background-closed {
+  to {
+    width: 700px;
+    height: 850px;
+    opacity: 1;
+    border-radius: 2%;
+  }
+}
+
+/*
+    ===================
+*/
