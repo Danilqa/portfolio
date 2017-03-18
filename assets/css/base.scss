@@ -59,19 +59,19 @@ h1, h2, h3, h4 {
 .container {
   width: 500px;
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .text-normal {
   font-weight: 300;
-  margin-top: 150px;
-  font-size: 55px;
-  margin-bottom: 15px;
+  /*margin-top: 150px;*/
+  font-size: 52px;
+  /*margin-bottom: 15px;*/
 }
 
 .text-in-write {
   color: black;
-  font-size: 15pt;
+  font-size: 14pt;
   padding: 0 10px;
 }
 
@@ -113,19 +113,22 @@ textarea {
 }
 
 .btn-send {
-  border: 1px solid black;
+  border: 0;
   border-radius: 35px;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  margin-left: -120px;
+  //position: absolute;
+  //bottom: 50px;
+  //left: 50%;
+  //margin-left: -120px;
   width: 240px;
   height: 54px;
-  background: #fff;
   text-decoration: none;
   font-family: GT Walsheim Pro;
   font-size: 14pt;
   transition: 0.5s;
+  background: #337ab7;
+  color: #fff;
+  margin: 0 auto;
+  outline: 0;
 
   &:hover {
     background: #337ab7;
@@ -308,6 +311,7 @@ a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     background-color: #337ab7;
     transition: 0.5s;
+    color: #ffffff;
   }
 }
 
@@ -431,7 +435,6 @@ a {
   .btn-send {
     width: 200px;
     height: 54px;
-    margin-left: -100px;
   }
 }
 
@@ -496,7 +499,6 @@ a {
   .btn-send {
     width: 240px;
     height: 54px;
-    margin-left: -120px;
   }
 }
 
@@ -544,7 +546,7 @@ a {
   
   .text-normal {
     font-size: 80px;
-      margin-top: 340px
+      /*margin-top: 340px*/
   }
 
   .text-in-write {
@@ -569,7 +571,6 @@ a {
   .btn-send {
     width: 240px;
     height: 54px;
-    margin-left: -120px;
   }
     
     .about-background.opened {
@@ -670,7 +671,7 @@ a {
 
   .text-normal {
     font-size: 55px;
-      margin-top: 250px;
+      /*margin-top: 250px;*/
   }
 
   .text-in-write {
@@ -678,7 +679,7 @@ a {
   }
     
   .container {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
   .text-obr {
@@ -695,7 +696,6 @@ a {
   .btn-send {
     width: 240px;
     height: 54px;
-    margin-left: -120px;
   }
     
   .about-background.opened {

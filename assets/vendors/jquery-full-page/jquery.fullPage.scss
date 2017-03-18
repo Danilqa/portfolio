@@ -198,8 +198,8 @@ html.fp-enabled,
         li {
             .fp-tooltip {
                 position: absolute;
-                top: -2px;
-                color: #fff;
+                top: 0px;
+                color: #000;
                 font-size: 14px;
                 font-family: arial, helvetica, sans-serif;
                 white-space: nowrap;
@@ -207,11 +207,16 @@ html.fp-enabled,
                 overflow: hidden;
                 display: block;
                 opacity: 0;
+                right: 50px;
                 width: 0;
                 cursor: pointer;
-
+                -webkit-transition: opacity 0.2s ease-in;
+                transition: opacity 0.2s ease-in;
+                -webkit-transition: right 0.1s linear;
+                transition: right 0.1s linear;
+                
                 &.right {
-                    right: 20px;
+                    right: 40px;
                 }
 
                 &.left {
@@ -220,10 +225,9 @@ html.fp-enabled,
             }
             &:hover {
                 .fp-tooltip {
-                    -webkit-transition: opacity 0.2s ease-in;
-                    transition: opacity 0.2s ease-in;
                     width: auto;
                     opacity: 1;
+                    right: 20px;
                 }
             }
         }
