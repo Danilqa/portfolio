@@ -10,19 +10,19 @@
 
 /* line 8, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 #section-0 {
-  background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
+  background-image: url(../img/1.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
 /* line 14, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 #section-1 {
-  background-image: url(../img/56f511afcd214153ad4d16e0.jpg);
+  background-image: url(../img/2.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
 /* line 20, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 #section-2 {
-  background-image: url(../img/25135.jpg);
+  background-image: url(../img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -37,32 +37,32 @@
     width: 100%;
     height: 100%;
     left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.6); }
+    top: 0px; }
 
-/* line 41, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+/* line 40, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 p, label {
   font-size: 25pt;
   font-family: DINPro, GT Walsheim Pro, sans-serif;
   color: #fff;
   margin: 0; }
 
-/* line 48, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+/* line 47, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 h1 {
   font-size: 84px; }
 
-/* line 52, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+/* line 51, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 h2 {
   font-size: 46px; }
 
-/* line 56, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+/* line 55, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 h1, h2, h3, h4 {
   font-family: DINPro, GT Walsheim Pro, sans-serif; }
 
-/* line 60, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+/* line 59, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .container {
   width: 500px;
-  margin: 50px auto; }
+  margin: 50px auto;
+  margin-top: 100px; }
 
 /* line 65, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .text-normal {
@@ -251,18 +251,18 @@ a {
 
 /* line 262, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .crossless {
-  width: 531px;
-  height: 320.5px; }
+  width: 424.8px;
+  height: 256.4px; }
 
 /* line 267, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .mindg {
-  width: 700px;
-  height: 700px; }
+  width: 500px;
+  height: 500px; }
 
 /* line 272, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .arahip {
-  width: 400px;
-  height: 267px; }
+  width: 300px;
+  height: 200px; }
 
 /* line 277, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
 .contact-background {
@@ -352,8 +352,8 @@ a {
 @media only screen and (min-width: 200px) {
   /* line 372, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .crossless, .mindg, .arahip {
-    width: 50%;
-    height: 50%; }
+    width: 60%;
+    height: 60%; }
   /* line 377, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-case {
     width: 200px;
@@ -378,173 +378,287 @@ a {
   .logo {
     width: 150px;
     left: 25px; }
-  /* line 407, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 406, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about p {
+    font-size: 50px; }
+  /* line 412, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-normal {
     font-size: 40px; }
-  /* line 411, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 416, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-in-write {
     font-size: 12pt; }
-  /* line 415, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 420, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-obr {
     width: 200px;
     font-size: 12pt;
     margin: 10px;
     margin-top: 45px; }
-  /* line 422, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 427, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 426, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 431, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-send {
     width: 200px;
     height: 54px;
     margin-left: -100px; } }
 
 @media only screen and (min-width: 500px) {
-  /* line 434, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 439, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .crossless, .mindg, .arahip {
     width: 50%;
     height: 50%; }
-  /* line 439, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 444, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px; }
-  /* line 445, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 450, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-triangle-right {
     width: 80px;
     height: 80px;
     line-height: 90px; }
-    /* line 450, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    /* line 455, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 38px; }
-  /* line 455, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 460, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
     top: 30px; }
-  /* line 462, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 467, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .logo {
     width: 200px;
     left: 50px; }
-  /* line 467, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 472, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about p {
+    font-size: 50px; }
+  /* line 477, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-normal {
     font-size: 40px; }
-  /* line 471, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 481, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-in-write {
     font-size: 12pt; }
-  /* line 475, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 485, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-obr {
     width: 250px;
     font-size: 15pt;
     margin: 10px;
     margin-top: 45px; }
-  /* line 482, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 492, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 486, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 496, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;
     margin-left: -120px; } }
 
 @media only screen and (min-width: 800px) {
-  /* line 494, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 504, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .crossless, .mindg, .arahip {
-    width: 50%;
-    height: 50%; }
-  /* line 499, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    width: 60%;
+    height: 60%; }
+  /* line 511, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-case {
-    width: 240px;
-    height: 54px;
-    margin-left: -130px; }
-  /* line 505, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    width: 360px;
+    height: 80px;
+    margin-left: -175px;
+    font-size: 35px; }
+  /* line 518, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-triangle-right {
-    width: 80px;
-    height: 80px;
-    line-height: 90px; }
-    /* line 510, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    width: 120px;
+    height: 120px;
+    line-height: 131px; }
+    /* line 523, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
     .btn-triangle-right .icon {
-      font-size: 38px; }
-  /* line 515, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+      font-size: 50px; }
+  /* line 528, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-popup-close.opened {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     right: 40px;
     top: 30px; }
-  /* line 522, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 535, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .logo {
-    width: 200px;
+    width: 320px;
     left: 50px; }
-  /* line 528, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 540, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about p {
+    font-size: 55px; }
+  /* line 545, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-normal {
-    font-size: 40px; }
-  /* line 532, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    font-size: 80px;
+    margin-top: 340px; }
+  /* line 550, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-in-write {
-    font-size: 12pt; }
-  /* line 536, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    font-size: 30pt; }
+  /* line 554, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .container {
+    margin-top: 130px; }
+  /* line 558, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-obr {
     width: 250px;
     font-size: 15pt;
     margin: 20px;
     margin-top: 45px; }
-  /* line 543, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 565, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .mail-obr {
     margin-top: 10px; }
-  /* line 547, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 569, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;
-    margin-left: -120px; } }
+    margin-left: -120px; }
+  /* line 575, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about-background.opened {
+    z-index: 81;
+    animation-name: about-background-opened-mob;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 582, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about-background.closed {
+    z-index: 81;
+    animation-name: about-background-closed-mob;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+  /* line 590, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .profile {
+    height: 450px;
+    width: 850px;
+    margin: 65px;
+    margin-top: 50px; }
+  /* line 597, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .photo {
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 55px; }
+  /* line 604, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .name-prof {
+    font-size: 40px;
+    margin-top: -220px;
+    margin-left: 280px; }
+  /* line 610, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .text-prof {
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: 40px; }
+  /* line 616, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .social {
+    bottom: -15px;
+    height: 100px;
+    width: 250px;
+    margin-left: 55px; }
+  /* line 623, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .fa {
+    width: 60px;
+    font-size: 40px !important;
+    margin-top: -20px; } }
 
 @media only screen and (min-width: 1280px) {
-  /* line 555, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 631, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .crossless, .mindg, .arahip {
-    width: 40%;
-    height: 40%; }
-  /* line 560, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    width: 30%;
+    height: 30%; }
+  /* line 636, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-case {
     width: 240px;
     height: 54px;
-    margin-left: -130px; }
-  /* line 566, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    margin-left: -130px;
+    font-size: 14pt; }
+  /* line 643, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-triangle-right {
     width: 80px;
     height: 80px;
     line-height: 90px; }
-    /* line 571, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    /* line 648, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
     .btn-triangle-right .icon {
       font-size: 38px; }
-  /* line 576, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 653, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-popup-close.opened {
     width: 80px;
     height: 80px;
     right: 40px;
     top: 30px; }
-  /* line 583, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 660, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .logo {
     width: 200px;
     left: 50px; }
-  /* line 589, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 665, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about p {
+    font-size: 30px; }
+  /* line 671, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-normal {
-    font-size: 55px; }
-  /* line 593, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+    font-size: 55px;
+    margin-top: 250px; }
+  /* line 676, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-in-write {
     font-size: 15pt; }
-  /* line 597, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 680, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .container {
+    margin-top: 100px; }
+  /* line 684, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .text-obr {
     width: 350px;
     font-size: 15pt;
     margin: 20px;
     margin-top: 70px; }
-  /* line 604, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 691, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .mail-obr {
     margin-top: 20px; }
-  /* line 608, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  /* line 695, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
   .btn-send {
     width: 240px;
     height: 54px;
-    margin-left: -120px; } }
+    margin-left: -120px; }
+  /* line 701, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about-background.opened {
+    z-index: 81;
+    animation-name: about-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 708, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .about-background.closed {
+    z-index: 81;
+    animation-name: about-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+  /* line 716, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .profile {
+    height: 250px;
+    width: 650px;
+    margin: 20px;
+    margin-top: 30px; }
+  /* line 723, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 55px; }
+  /* line 730, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .name-prof {
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 140px; }
+  /* line 736, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .text-prof {
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 40px; }
+  /* line 742, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .social {
+    bottom: -50px;
+    height: 100px;
+    width: 250px;
+    margin-left: 10px; }
+  /* line 749, C:/OpenServer/domains/portf.ru/assets/css/base.scss */
+  .fa {
+    width: 30px;
+    font-size: 25px !important;
+    margin-top: 3px; } }
 
 /* line 3, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .btn-popup-close {
@@ -560,28 +674,24 @@ a {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
-  /* line 17, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
-  .btn-popup-close.opened {
-    width: 80px;
-    height: 80px; }
-  /* line 22, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 21, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .btn-popup-close:hover {
     background: #337ab7;
     cursor: pointer; }
 
-/* line 28, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 27, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .contact-background .header {
   width: 100%;
   text-align: center; }
 
-/* line 33, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 32, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .x {
   position: relative;
   left: 50%;
   margin-left: -26px;
   margin-top: -24px;
   top: 50%; }
-  /* line 40, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 39, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .x::before, .x::after {
     content: "";
     border-style: solid;
@@ -593,16 +703,16 @@ a {
     top: -10px;
     left: 15px;
     transform: rotate(45deg); }
-  /* line 53, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 52, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .x::before {
     border-width: 0px 2px 2px 0px;
     top: 0px; }
-  /* line 58, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 57, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .x::after {
     border-width: 2px 0px 0px 2px;
     top: 28px; }
 
-/* line 64, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 63, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 #fp-nav ul li, .fp-slidesNav ul li {
   display: block;
   width: 14px !important;
@@ -610,56 +720,56 @@ a {
   margin: 20px 10px;
   position: relative; }
 
-/* line 72, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 71, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
   height: 14px !important;
   width: 14px !important;
   margin: -6px 0 0 -6px;
-  border: 3px solid #fff;
+  border: 2px solid black;
   border-radius: 100%;
-  background: #fff; }
+  background: #337ab7; }
 
-/* line 81, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 80, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   height: 14px !important;
   width: 14px !important;
   margin: -6px 0 0 -6px !important;
-  border: 3px solid #fff;
+  border: 2px solid black;
   border-radius: 100%;
   background: transparent; }
 
-/* line 90, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 89, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 #fp-nav ul li .fp-tooltip {
   top: 3px; }
 
-/* line 95, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 94, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 fieldset {
   margin: 0 0 3rem;
   padding: 0;
   border: none; }
 
-/* line 101, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 100, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-radio,
 .form-group {
   position: relative;
   margin-top: 2.25rem;
   margin-bottom: 2.25rem; }
 
-/* line 109, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 108, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-inline > .form-group,
 .form-inline > .btn {
   display: inline-block;
   margin-bottom: 0; }
 
-/* line 118, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 117, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group input {
   height: 1.9rem; }
 
-/* line 122, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 121, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group textarea {
   resize: none; }
 
-/* line 126, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 125, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group select {
   width: 100%;
   font-size: 1rem;
@@ -670,7 +780,7 @@ fieldset {
   line-height: 1.6;
   box-shadow: none; }
 
-/* line 137, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 136, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group .control-label {
   position: absolute;
   top: 0.25rem;
@@ -682,12 +792,12 @@ fieldset {
   font-weight: normal;
   transition: all 0.28s ease; }
 
-/* line 149, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 148, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group .bar {
   position: relative;
   border-bottom: 0.0625rem solid #999;
   display: block; }
-  /* line 154, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 153, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .form-group .bar::before {
     content: '';
     height: 0.125rem;
@@ -699,7 +809,7 @@ fieldset {
     transition: left 0.28s ease, width 0.28s ease;
     z-index: 2; }
 
-/* line 167, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 166, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group input,
 .form-group textarea {
   display: block;
@@ -713,14 +823,14 @@ fieldset {
   transition: all 0.28s ease;
   box-shadow: none; }
 
-/* line 181, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 180, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group input[type="file"] {
   line-height: 1; }
-  /* line 184, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 183, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .form-group input[type="file"] ~ .bar {
     display: none; }
 
-/* line 189, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 188, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group select,
 .form-group input:focus,
 .form-group input:valid,
@@ -731,7 +841,7 @@ fieldset {
 .form-group textarea.form-file,
 .form-group textarea.has-value {
   color: #333; }
-  /* line 200, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 199, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .form-group select ~ .control-label,
   .form-group input:focus ~ .control-label,
   .form-group input:valid ~ .control-label,
@@ -746,17 +856,17 @@ fieldset {
     top: -1rem;
     left: 15rem; }
 
-/* line 211, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+/* line 210, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
 .form-group select:focus,
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none; }
-  /* line 214, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 213, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .form-group select:focus ~ .control-label,
   .form-group input:focus ~ .control-label,
   .form-group textarea:focus ~ .control-label {
     color: #337ab7; }
-  /* line 219, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
+  /* line 218, C:/OpenServer/domains/portf.ru/assets/css/contact.scss */
   .form-group select:focus ~ .bar::before,
   .form-group input:focus ~ .bar::before,
   .form-group textarea:focus ~ .bar::before {
@@ -797,14 +907,13 @@ fieldset {
   transition: 0.2s; }
   /* line 8, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
   .about p {
-    font-size: 30px;
-    color: white; }
+    color: black; }
 
-/* line 14, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 13, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .about:hover {
   cursor: pointer; }
 
-/* line 18, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 17, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .about-background {
   width: 0;
   height: 0;
@@ -819,22 +928,23 @@ fieldset {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  /* line 34, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
-  .about-background.opened {
+  transition: all 0.5s;
+  /* &.opened {
     z-index: 81;
     animation-name: about-background-opened;
     animation-duration: 0.6s;
-    animation-fill-mode: forwards; }
-  /* line 41, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
-  .about-background.closed {
+    animation-fill-mode: forwards;
+  }
+
+  &.closed {
     z-index: 81;
     animation-name: about-background-closed;
     animation-duration: 0.6s;
     animation-fill-mode: forwards;
-    animation-direction: reverse; }
+    animation-direction: reverse;
+  } */ }
 
-/* line 53, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 52, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .btn-about-animation.opened {
   z-index: 80;
   animation-name: btn-about-opening;
@@ -842,12 +952,12 @@ fieldset {
   animation-fill-mode: forwards;
   background: #ffffff;
   color: #ffffff; }
-  /* line 60, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  /* line 59, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
   .btn-about-animation.opened:hover {
     color: #ffffff;
     background: #ffffff; }
 
-/* line 66, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 65, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .btn-about-animation.closed {
   z-index: 80;
   animation-name: btn-about-opening;
@@ -858,85 +968,66 @@ fieldset {
 /*
    ===== Начинка в "О нас" =====
 */
-/* line 79, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 78, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .about-header {
   text-align: center; }
 
-/* line 83, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 82, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .about-normal {
-  margin-top: 100px; }
+  margin-top: 100px;
+  color: black; }
 
 /* line 87, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .profile {
-  height: 450px;
-  width: 300px;
   border: 1px solid black;
   border-radius: 20px;
-  margin: 20px;
-  margin-top: 50px;
   text-align: center;
   position: relative; }
 
-/* line 99, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 95, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .photo {
-  width: 300px;
-  height: 170px;
   border: 0;
-  border-bottom: 1px solid black;
-  border-top-left-radius: 19px;
-  border-top-right-radius: 19px;
+  border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 111, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 103, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .danya-prof {
   background-image: url(../img/profile/danya.jpg); }
 
-/* line 115, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 107, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .misha-prof {
   background-image: url(../img/profile/misha.jpg); }
 
-/* line 119, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 111, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .name-prof {
-  color: black;
-  font-size: 25px;
-  margin-top: 20px; }
+  color: black; }
 
-/* line 125, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 116, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .text-prof {
-  color: black;
-  font-size: 20px;
-  margin-top: 30px; }
+  color: black; }
 
-/* line 131, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 120, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .social {
-  bottom: -55px;
-  height: 100px;
-  width: 250px;
   border: 0;
-  border-top: 1px solid black;
-  margin-left: 25px;
   position: absolute; }
 
-/* line 141, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 125, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa {
-  width: 30px;
-  font-size: 25px !important;
-  margin-top: 3px;
   transition: 0.2s; }
 
-/* line 148, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 129, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa-vk:hover {
   color: #45668e;
   transition: 0.2s; }
 
-/* line 153, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 134, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa-instagram:hover {
   color: #e1306c;
   transition: 0.2s; }
 
-/* line 158, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 139, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .social table td a {
   color: black; }
 
@@ -1028,10 +1119,24 @@ fieldset {
     opacity: 1;
     border-radius: 2%; } }
 
+@keyframes about-background-opened-mob {
+  to {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 2%; } }
+
 @keyframes about-background-closed {
   to {
     width: 700px;
     height: 850px;
+    opacity: 1;
+    border-radius: 2%; } }
+
+@keyframes about-background-closed-mob {
+  to {
+    width: 100%;
+    height: 100%;
     opacity: 1;
     border-radius: 2%; } }
 

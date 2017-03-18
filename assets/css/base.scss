@@ -6,19 +6,19 @@
 }
 
 #section-0 {
-  background-image: url(../img/02179_piertonowhere_2560x1600.jpg);
+  background-image: url(../img/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #section-1 {
-  background-image: url(../img/56f511afcd214153ad4d16e0.jpg);
+  background-image: url(../img/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #section-2 {
-  background-image: url(../img/25135.jpg);
+  background-image: url(../img/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,7 +32,6 @@
     height: 100%;
     left: 0px;
     top: 0px;
-    background: rgba(0, 0, 0, 0.6);
   }
 
   color: #fff;
@@ -60,6 +59,7 @@ h1, h2, h3, h4 {
 .container {
   width: 500px;
   margin: 50px auto;
+  margin-top: 100px;
 }
 
 .text-normal {
@@ -260,18 +260,18 @@ a {
 }
 
 .crossless {
-  width: 531px;
-  height: 320.5px;
+  width: 424.8px;
+  height: 256.4px;
 }
 
 .mindg {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
 }
 
 .arahip {
-  width: 400px;
-  height: 267px;
+  width: 300px;
+  height: 200px;
 }
 
 .contact-background {
@@ -370,8 +370,8 @@ a {
 
 @media only screen and (min-width: 200px) {
   .crossless, .mindg, .arahip {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
   }
 
   .btn-case {
@@ -402,6 +402,11 @@ a {
     width: 150px;
     left: 25px;
   }
+    
+   .about p {
+        font-size: 50px;
+        
+    }
 
 
   .text-normal {
@@ -463,6 +468,11 @@ a {
     width: 200px;
     left: 50px;
   }
+    
+   .about p {
+        font-size: 50px;
+        
+    }
 
   .text-normal {
     font-size: 40px;
@@ -492,46 +502,58 @@ a {
 
 @media only screen and (min-width: 800px) {
   .crossless, .mindg, .arahip {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
   }
+    
+  
 
   .btn-case {
-    width: 240px;
-    height: 54px;
-    margin-left: -130px;
+    width: 360px;
+    height: 80px;
+    margin-left: -175px;
+      font-size: 35px;
   }
 
   .btn-triangle-right {
-    width: 80px;
-    height: 80px;
-    line-height: 90px;
+    width: 120px;
+    height: 120px;
+    line-height: 131px;
 
     .icon {
-      font-size: 38px;
+      font-size: 50px;
     }
   }
 
   .btn-popup-close.opened {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     right: 40px;
     top: 30px;
   }
 
   .logo {
-    width: 200px;
+    width: 320px;
     left: 50px;
   }
-
-
+    
+    .about p {
+        font-size: 55px;
+        
+    }
+  
   .text-normal {
-    font-size: 40px;
+    font-size: 80px;
+      margin-top: 340px
   }
 
   .text-in-write {
-    font-size: 12pt;
+    font-size: 30pt;
   }
+    
+    .container {
+        margin-top: 130px;
+    }
 
   .text-obr {
     width: 250px;
@@ -549,18 +571,73 @@ a {
     height: 54px;
     margin-left: -120px;
   }
+    
+    .about-background.opened {
+        z-index: 81;
+        animation-name: about-background-opened-mob;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    
+    .about-background.closed {
+        z-index: 81;
+        animation-name: about-background-closed-mob;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+        animation-direction: reverse;
+    }
+  
+  .profile {
+    height: 450px;
+    width: 850px;
+    margin: 65px;
+    margin-top: 50px;
+    }
+    
+     .photo {
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 55px;
+ }
+    
+    .name-prof {
+    font-size: 40px;
+    margin-top: -220px;
+    margin-left: 280px;
+ }
+    
+      .text-prof {
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: 40px;
+ }
+    
+       .social {
+    bottom: -15px;
+    height: 100px;
+    width: 250px;
+    margin-left: 55px;
+ }
+    
+       .fa {
+    width: 60px;
+    font-size: 40px !important;
+    margin-top: -20px;
+ }
 }
 
 @media only screen and (min-width: 1280px) {
   .crossless, .mindg, .arahip {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
   }
-
+    
   .btn-case {
     width: 240px;
     height: 54px;
     margin-left: -130px;
+      font-size: 14pt;
   }
 
   .btn-triangle-right {
@@ -579,20 +656,30 @@ a {
     right: 40px;
     top: 30px;
   }
-
+    
   .logo {
     width: 200px;
     left: 50px;
   }
+    
+     .about p {
+        font-size: 30px;
+        
+    }
 
 
   .text-normal {
     font-size: 55px;
+      margin-top: 250px;
   }
 
   .text-in-write {
     font-size: 15pt;
   }
+    
+  .container {
+        margin-top: 100px;
+    }
 
   .text-obr {
     width: 350px;
@@ -610,4 +697,58 @@ a {
     height: 54px;
     margin-left: -120px;
   }
+    
+  .about-background.opened {
+        z-index: 81;
+        animation-name: about-background-opened;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    
+    .about-background.closed {
+        z-index: 81;
+        animation-name: about-background-closed;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+        animation-direction: reverse;
+    }
+    
+  .profile {
+    height: 250px;
+    width: 650px;
+    margin: 20px;
+    margin-top: 30px;
+  }
+    
+  .photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 55px;
+ }
+    
+  .name-prof {
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 140px;
+ }
+    
+    .text-prof {
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 40px;
+ }
+    
+    .social {
+    bottom: -50px;
+    height: 100px;
+    width: 250px;
+    margin-left: 10px;
+ }
+    
+    .fa {
+    width: 30px;
+    font-size: 25px !important;
+    margin-top: 3px;
+ }
 }

@@ -15,8 +15,7 @@
   transition: all 0.5s;
 
   &.opened {
-    width: 80px;
-    height: 80px;
+    
   }
 
   &:hover {
@@ -73,16 +72,16 @@
   height: 14px !important;
   width: 14px !important;
   margin: -6px 0 0 -6px;
-  border: 3px solid #fff;
+  border: 2px solid black;
   border-radius: 100%;
-  background: #fff;
+  background: #337ab7;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   height: 14px !important;
   width: 14px !important;
   margin: -6px 0 0 -6px !important;
-  border: 3px solid #fff;
+  border: 2px solid black;
   border-radius: 100%;
   background: transparent;
 }
