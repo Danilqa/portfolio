@@ -666,28 +666,29 @@ a {
   overflow: auto;
   white-space: nowrap;
   text-align: center;
-  font-size: 0; }
-  /* line 12, C:/Portfolio OLD/assets/css/contact.scss */
+  font-size: 0;
+  z-index: -1; }
+  /* line 13, C:/Portfolio OLD/assets/css/contact.scss */
   .contact-background:before {
     height: 100%;
     display: inline-block;
     vertical-align: middle;
     content: ''; }
-  /* line 19, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 20, C:/Portfolio OLD/assets/css/contact.scss */
   .contact-background .form-container {
     padding-top: 50px;
     display: inline-block;
     white-space: normal;
     vertical-align: middle; }
 
-/* line 29, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 31, C:/Portfolio OLD/assets/css/contact.scss */
 .x {
   position: relative;
   left: 50%;
   margin-left: -26px;
   margin-top: -24px;
   top: 50%; }
-  /* line 36, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 38, C:/Portfolio OLD/assets/css/contact.scss */
   .x::before, .x::after {
     content: "";
     border-style: solid;
@@ -699,16 +700,16 @@ a {
     top: -10px;
     left: 15px;
     transform: rotate(45deg); }
-  /* line 49, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 51, C:/Portfolio OLD/assets/css/contact.scss */
   .x::before {
     border-width: 0px 2px 2px 0px;
     top: 0px; }
-  /* line 54, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 56, C:/Portfolio OLD/assets/css/contact.scss */
   .x::after {
     border-width: 2px 0px 0px 2px;
     top: 28px; }
 
-/* line 60, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 62, C:/Portfolio OLD/assets/css/contact.scss */
 .btn-popup-close {
   width: 50px;
   height: 50px;
@@ -722,21 +723,21 @@ a {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
-  /* line 78, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 80, C:/Portfolio OLD/assets/css/contact.scss */
   .btn-popup-close:hover {
     background: #337ab7;
     cursor: pointer;
     border-color: #337ab7; }
-    /* line 84, C:/Portfolio OLD/assets/css/contact.scss */
+    /* line 86, C:/Portfolio OLD/assets/css/contact.scss */
     .btn-popup-close:hover .x::before, .btn-popup-close:hover .x::after {
       border-color: #ffffff; }
 
-/* line 91, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 93, C:/Portfolio OLD/assets/css/contact.scss */
 .contact-background .header {
   width: 100%;
   text-align: center; }
 
-/* line 96, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 98, C:/Portfolio OLD/assets/css/contact.scss */
 #fp-nav ul li, .fp-slidesNav ul li {
   display: block;
   width: 14px !important;
@@ -744,7 +745,7 @@ a {
   margin: 20px 10px;
   position: relative; }
 
-/* line 104, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 106, C:/Portfolio OLD/assets/css/contact.scss */
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
   height: 14px !important;
   width: 14px !important;
@@ -753,7 +754,7 @@ a {
   border-radius: 100%;
   background: #337ab7; }
 
-/* line 113, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 115, C:/Portfolio OLD/assets/css/contact.scss */
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   height: 14px !important;
   width: 14px !important;
@@ -762,38 +763,39 @@ a {
   border-radius: 100%;
   background: transparent; }
 
-/* line 122, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 124, C:/Portfolio OLD/assets/css/contact.scss */
 #fp-nav ul li .fp-tooltip {
   top: 3px; }
 
-/* line 127, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 129, C:/Portfolio OLD/assets/css/contact.scss */
 fieldset {
   margin: 0 0 3rem;
   padding: 0;
   border: none; }
 
-/* line 133, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 135, C:/Portfolio OLD/assets/css/contact.scss */
 .form-radio,
 .form-group {
   position: relative;
   margin-top: 2.25rem;
   margin-bottom: 2.25rem; }
 
-/* line 141, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 143, C:/Portfolio OLD/assets/css/contact.scss */
 .form-inline > .form-group,
 .form-inline > .btn {
   display: inline-block;
   margin-bottom: 0; }
 
-/* line 150, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 152, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group input {
   height: 1.9rem; }
 
-/* line 154, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 156, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group textarea {
-  resize: none; }
+  resize: none;
+  font-weight: 600; }
 
-/* line 158, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 161, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group select {
   width: 100%;
   font-size: 1rem;
@@ -804,7 +806,7 @@ fieldset {
   line-height: 1.6;
   box-shadow: none; }
 
-/* line 169, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 172, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group .control-label {
   position: absolute;
   top: 0.25rem;
@@ -816,12 +818,12 @@ fieldset {
   font-weight: normal;
   transition: all 0.28s ease; }
 
-/* line 181, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 184, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group .bar {
   position: relative;
   border-bottom: 0.0625rem solid #999;
   display: block; }
-  /* line 186, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 189, C:/Portfolio OLD/assets/css/contact.scss */
   .form-group .bar::before {
     content: '';
     height: 0.125rem;
@@ -833,7 +835,7 @@ fieldset {
     transition: left 0.28s ease, width 0.28s ease;
     z-index: 2; }
 
-/* line 199, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 202, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group input,
 .form-group textarea {
   display: block;
@@ -847,14 +849,14 @@ fieldset {
   transition: all 0.28s ease;
   box-shadow: none; }
 
-/* line 213, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 216, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group input[type="file"] {
   line-height: 1; }
-  /* line 216, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 219, C:/Portfolio OLD/assets/css/contact.scss */
   .form-group input[type="file"] ~ .bar {
     display: none; }
 
-/* line 221, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 224, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group select,
 .form-group input:focus,
 .form-group input:valid,
@@ -865,7 +867,7 @@ fieldset {
 .form-group textarea.form-file,
 .form-group textarea.has-value {
   color: #333; }
-  /* line 232, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 235, C:/Portfolio OLD/assets/css/contact.scss */
   .form-group select ~ .control-label,
   .form-group input:focus ~ .control-label,
   .form-group input:valid ~ .control-label,
@@ -880,17 +882,17 @@ fieldset {
     top: -1rem;
     left: 15rem; }
 
-/* line 243, C:/Portfolio OLD/assets/css/contact.scss */
+/* line 246, C:/Portfolio OLD/assets/css/contact.scss */
 .form-group select:focus,
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none; }
-  /* line 246, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 249, C:/Portfolio OLD/assets/css/contact.scss */
   .form-group select:focus ~ .control-label,
   .form-group input:focus ~ .control-label,
   .form-group textarea:focus ~ .control-label {
     color: #337ab7; }
-  /* line 251, C:/Portfolio OLD/assets/css/contact.scss */
+  /* line 254, C:/Portfolio OLD/assets/css/contact.scss */
   .form-group select:focus ~ .bar::before,
   .form-group input:focus ~ .bar::before,
   .form-group textarea:focus ~ .bar::before {
