@@ -228,7 +228,6 @@ fieldset {
 		color: $mf-input-color;
 
 		~ .control-label {
-			font-size: $mf-active-font-size;
 			color: $mf-active-color;
 			top: $mf-active-top;
 			left: ($mf-font-size * 15);
