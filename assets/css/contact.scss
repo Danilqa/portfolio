@@ -135,8 +135,6 @@ fieldset {
 .form-radio,
 .form-group {
 	position: relative;
-	margin-top: ($mf-gap * 1.5);
-	margin-bottom: ($mf-gap * 1.5);
 }
 
 .form-inline {
@@ -176,7 +174,6 @@ fieldset {
 		margin-left: ($mf-gap * (-10));
 		z-index: 1;
 		color: $mf-input-color;
-		font-size: $mf-font-size;
 		font-weight: normal;
         transition: all $mf-transition-speed ease;
 	}
@@ -203,8 +200,6 @@ fieldset {
 	textarea {
 		display: block;
 		background: none;
-		padding: $mf-spacer $mf-spacer ($mf-spacer / 2);
-		font-size: $mf-font-size;
 		border-width: 0;
 		border-color: transparent;
 		width: 100%;

@@ -626,6 +626,22 @@ a {
     font-size: 40px !important;
     margin-top: -20px;
  }
+    
+    .form-group {
+	margin-top: 3.25rem;
+	margin-bottom: 3.25rem;
+ }
+    
+    .form-group input,
+	.form-group textarea {
+		padding: 1.125rem 0.125rem 0.0625rem;
+		font-size: 30px;
+		
+	}
+    
+    .control-label {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -751,4 +767,20 @@ a {
     font-size: 25px !important;
     margin-top: 3px;
  }
+    
+    .form-group {
+	margin-top: 2.25rem;
+	margin-bottom: 2.25rem;
+ }
+    
+    .form-group input,
+	.form-group textarea {
+		padding: 0.125rem 0.125rem 0.0625rem;
+		font-size: 1rem;
+		
+	}
+    
+    .control-label {
+		font-size: 1rem;
+	}
 }
