@@ -81,21 +81,22 @@
 /* line 87, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .profile {
   border: 1px solid black;
+  border-radius: 10px;
   text-align: center;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 96, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 97, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .dany {
   background-image: url(../img/4.jpg); }
 
-/* line 100, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 101, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .micky {
   background-image: url(../img/5.jpg); }
 
-/* line 104, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 105, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .photo {
   border: 1px solid black;
   border-radius: 100%;
@@ -104,44 +105,44 @@
   background-size: cover;
   position: absolute; }
 
-/* line 113, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 114, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .danya-prof {
   background-image: url(../img/profile/danya.jpg); }
 
-/* line 117, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 118, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .misha-prof {
   background-image: url(../img/profile/misha.jpg); }
 
-/* line 121, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 122, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .name-prof {
   color: black;
   position: relative; }
 
-/* line 126, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 127, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .text-prof {
   color: black;
   position: relative; }
 
-/* line 131, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 132, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .social {
   border: 0;
   position: absolute; }
 
-/* line 136, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 137, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa {
   transition: 0.2s; }
 
-/* line 140, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 141, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa-vk:hover {
   color: #45668e;
   transition: 0.2s; }
 
-/* line 145, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 146, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .fa-instagram:hover {
   color: #e1306c;
   transition: 0.2s; }
 
-/* line 150, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 151, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
 .social table td a {
   color: black; }
 
