@@ -92,7 +92,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
-    border-radius: 2%; } }
+    border-radius: 0; } }
 
 @keyframes about-background-closed {
   to {
@@ -106,7 +106,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
-    border-radius: 2%; } }
+    border-radius: 0; } }
 
 /*
     ===================
