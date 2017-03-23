@@ -8,6 +8,8 @@
     opacity: 0;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
         
     &.opened {
         z-index: 81;
@@ -21,5 +23,28 @@
         animation-duration: 0.6s;
         animation-fill-mode: forwards;
         animation-direction: reverse;
+    }
+    
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px 0px;
+        color: black;
+    }
+    
+    h1 {
+        margin: 0px 0px 50px 0px;
+    }
+    
+    .case-container {
+        width: 600px;
+        padding: 50px;
+        margin: 100px auto;
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .case-container {
+            padding: 20px;
+        }
     }
 }
