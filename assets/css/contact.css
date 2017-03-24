@@ -1,0 +1,743 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro.otf?#iefix") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 8, C:/Portfolio OLD/assets/css/contact.scss */
+#section-0 {
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 14, C:/Portfolio OLD/assets/css/contact.scss */
+#section-1 {
+  background-image: url(../img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 20, C:/Portfolio OLD/assets/css/contact.scss */
+#section-2 {
+  background-image: url(../img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 26, C:/Portfolio OLD/assets/css/contact.scss */
+.section {
+  color: #fff; }
+  /* line 27, C:/Portfolio OLD/assets/css/contact.scss */
+  .section:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px; }
+
+/* line 39, C:/Portfolio OLD/assets/css/contact.scss */
+p,
+label {
+  font-size: 25pt;
+  font-family: DINPro, GT Walsheim Pro, sans-serif;
+  color: #fff;
+  margin: 0; }
+
+/* line 47, C:/Portfolio OLD/assets/css/contact.scss */
+h1 {
+  font-size: 84px; }
+
+/* line 51, C:/Portfolio OLD/assets/css/contact.scss */
+h2 {
+  font-size: 46px; }
+
+/* line 55, C:/Portfolio OLD/assets/css/contact.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: DINPro, GT Walsheim Pro, sans-serif; }
+
+/* line 62, C:/Portfolio OLD/assets/css/contact.scss */
+.container {
+  width: 500px;
+  margin: 50px auto;
+  margin-top: 50px; }
+
+/* line 68, C:/Portfolio OLD/assets/css/contact.scss */
+.text-normal {
+  font-weight: 300;
+  /*margin-top: 150px;*/
+  font-size: 52px;
+  /*margin-bottom: 15px;*/ }
+
+/* line 75, C:/Portfolio OLD/assets/css/contact.scss */
+.text-in-write {
+  color: black;
+  font-size: 14pt;
+  padding: 0 10px; }
+
+/* line 81, C:/Portfolio OLD/assets/css/contact.scss */
+.text-obr {
+  width: 350px;
+  margin: 20px;
+  margin-top: 70px;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+  font-family: DINPro, sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  padding: 8px 9px; }
+  /* line 92, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-obr:focus {
+    border-bottom: 2px solid #337ab7; }
+
+/* line 97, C:/Portfolio OLD/assets/css/contact.scss */
+.mail-obr {
+  margin-top: 20px; }
+
+/* line 101, C:/Portfolio OLD/assets/css/contact.scss */
+textarea {
+  width: 500px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1.5px solid black;
+  outline: 0;
+  font-family: DINPro, sans-serif;
+  font-size: 15pt;
+  padding: 8px 9px; }
+  /* line 110, C:/Portfolio OLD/assets/css/contact.scss */
+  textarea:focus {
+    border: 0;
+    border-bottom: 1.5px solid #337ab7; }
+
+/* line 116, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-send {
+  border: 0;
+  border-radius: 35px;
+  width: 240px;
+  height: 54px;
+  text-decoration: none;
+  font-family: GT Walsheim Pro;
+  font-size: 14pt;
+  transition: 0.5s;
+  background: #337ab7;
+  color: #fff;
+  margin: 0 auto;
+  outline: 0; }
+  /* line 133, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-send:hover {
+    background: #337ab7;
+    transition: 0.5s;
+    cursor: pointer; }
+
+/* line 140, C:/Portfolio OLD/assets/css/contact.scss */
+a {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 145, C:/Portfolio OLD/assets/css/contact.scss */
+.intro {
+  display: table;
+  width: 100%;
+  margin-top: 0px; }
+  /* line 149, C:/Portfolio OLD/assets/css/contact.scss */
+  .intro h1 {
+    display: table-cell;
+    vertical-align: middle; }
+
+/* line 155, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-case {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -130px; }
+
+/* line 162, C:/Portfolio OLD/assets/css/contact.scss */
+.section {
+  text-align: center; }
+
+/* line 167, C:/Portfolio OLD/assets/css/contact.scss */
+.controlArrow.prev {
+  left: 50px; }
+
+/* line 170, C:/Portfolio OLD/assets/css/contact.scss */
+.controlArrow.next {
+  right: 50px; }
+
+/* line 175, C:/Portfolio OLD/assets/css/contact.scss */
+#infoMenu li a {
+  color: #fff; }
+
+/* line 179, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-triangle-left {
+  position: fixed;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+  border-top: 400px solid rgba(255, 255, 255, 0.8);
+  border-right: 400px solid transparent;
+  z-index: 70; }
+
+/* line 190, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-triangle-right {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  right: 25px;
+  bottom: 30px;
+  border-radius: 100%;
+  z-index: 70;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  text-align: center;
+  line-height: 90px; }
+  /* line 204, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right:hover {
+    cursor: pointer; }
+  /* line 207, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right .icon {
+    font-size: 38px;
+    vertical-align: middle; }
+  /* line 211, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right:hover {
+    /*Покачивание
+    -webkit-animation: swing 1.5s ease;
+    animation: swing 1.5s ease;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;*/ }
+
+/* line 220, C:/Portfolio OLD/assets/css/contact.scss */
+.logo {
+  position: fixed;
+  z-index: 80;
+  top: 50px;
+  left: 50px; }
+
+/* line 227, C:/Portfolio OLD/assets/css/contact.scss */
+.write {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  z-index: 80;
+  right: 20px;
+  bottom: 20px; }
+
+/* line 236, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-case {
+  z-index: 11;
+  width: 240px;
+  height: 54px;
+  text-decoration: none;
+  font-family: GT Walsheim Pro;
+  font-size: 14pt;
+  outline: none;
+  background-color: white;
+  border-radius: 35px;
+  border-style: none;
+  margin-top: 300px;
+  transition: 0.5s;
+  cursor: pointer; }
+  /* line 250, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+    background-color: #337ab7; }
+
+/* line 257, C:/Portfolio OLD/assets/css/contact.scss */
+.crossless {
+  width: 424.8px;
+  height: 256.4px; }
+
+/* line 262, C:/Portfolio OLD/assets/css/contact.scss */
+.mindg {
+  width: 500px;
+  height: 500px; }
+
+/* line 267, C:/Portfolio OLD/assets/css/contact.scss */
+.arahip {
+  width: 300px;
+  height: 200px; }
+
+/* line 272, C:/Portfolio OLD/assets/css/contact.scss */
+.contact-background {
+  background: #fff;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  border-top-left-radius: 100%; }
+  /* line 281, C:/Portfolio OLD/assets/css/contact.scss */
+  .contact-background.opened {
+    z-index: 81;
+    animation-name: contact-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 287, C:/Portfolio OLD/assets/css/contact.scss */
+  .contact-background.closed {
+    z-index: 81;
+    animation-name: contact-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+
+/* line 296, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.5s; }
+  /* line 299, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-shadow:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #337ab7;
+    transition: 0.5s;
+    color: #ffffff; }
+
+/* line 307, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-contact-animation {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  right: 25px;
+  bottom: 30px;
+  background: #fff;
+  border-radius: 100%; }
+  /* line 316, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-contact-animation.opened {
+    z-index: 80;
+    animation-name: btn-open;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; }
+  /* line 322, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-contact-animation.closed {
+    z-index: 80;
+    animation-name: btn-close;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+
+/*  
+    ========== КЕЙСЫ ============
+*/
+/* line 337, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-case-animation.opened {
+  z-index: 80;
+  animation-name: btn-case-opening;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  background: #ffffff;
+  color: #ffffff; }
+  /* line 344, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case-animation.opened:hover {
+    color: #ffffff;
+    background: #ffffff; }
+
+/* line 349, C:/Portfolio OLD/assets/css/contact.scss */
+.btn-case-animation.closed {
+  z-index: 80;
+  animation-name: btn-case-opening;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse; }
+
+/*
+    ================================
+*/
+@media only screen and (min-width: 200px) {
+  /* line 364, C:/Portfolio OLD/assets/css/contact.scss */
+  .crossless,
+  .mindg,
+  .arahip {
+    width: 60%;
+    height: 60%; }
+  /* line 370, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case {
+    width: 200px;
+    height: 54px;
+    margin-left: -110px; }
+  /* line 375, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right {
+    width: 60px;
+    height: 60px;
+    line-height: 70px; }
+    /* line 379, C:/Portfolio OLD/assets/css/contact.scss */
+    .btn-triangle-right .icon {
+      font-size: 30px;
+      margin-bottom: 20px; }
+  /* line 385, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-popup-close .icon {
+    position: absolute;
+    font-size: 32px;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -16px; }
+  /* line 394, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-popup-close.opened {
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    top: 40px; }
+  /* line 400, C:/Portfolio OLD/assets/css/contact.scss */
+  .logo {
+    width: 150px;
+    left: 25px; }
+  /* line 404, C:/Portfolio OLD/assets/css/contact.scss */
+  .about p {
+    font-size: 50px; }
+  /* line 407, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-normal {
+    font-size: 40px; }
+  /* line 410, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-in-write {
+    font-size: 12pt; }
+  /* line 413, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-obr {
+    width: 200px;
+    font-size: 12pt;
+    margin: 10px;
+    margin-top: 45px; }
+  /* line 419, C:/Portfolio OLD/assets/css/contact.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 422, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-send {
+    width: 200px;
+    height: 54px; } }
+
+@media only screen and (min-width: 500px) {
+  /* line 429, C:/Portfolio OLD/assets/css/contact.scss */
+  .crossless,
+  .mindg,
+  .arahip {
+    width: 50%;
+    height: 50%; }
+  /* line 435, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case {
+    width: 240px;
+    height: 54px;
+    margin-left: -130px; }
+  /* line 440, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right {
+    width: 80px;
+    height: 80px;
+    line-height: 90px; }
+    /* line 444, C:/Portfolio OLD/assets/css/contact.scss */
+    .btn-triangle-right .icon {
+      font-size: 38px; }
+  /* line 448, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-popup-close.opened {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    top: 30px; }
+  /* line 454, C:/Portfolio OLD/assets/css/contact.scss */
+  .logo {
+    width: 200px;
+    left: 50px; }
+  /* line 458, C:/Portfolio OLD/assets/css/contact.scss */
+  .about p {
+    font-size: 50px; }
+  /* line 461, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-normal {
+    font-size: 40px; }
+  /* line 464, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-in-write {
+    font-size: 12pt; }
+  /* line 467, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-obr {
+    width: 250px;
+    font-size: 15pt;
+    margin: 10px;
+    margin-top: 45px; }
+  /* line 473, C:/Portfolio OLD/assets/css/contact.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 476, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-send {
+    width: 240px;
+    height: 54px; } }
+
+@media only screen and (min-width: 800px) {
+  /* line 483, C:/Portfolio OLD/assets/css/contact.scss */
+  .crossless,
+  .mindg,
+  .arahip {
+    width: 60%;
+    height: 60%; }
+  /* line 489, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case {
+    width: 360px;
+    height: 80px;
+    margin-left: -175px;
+    font-size: 35px; }
+  /* line 495, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right {
+    width: 120px;
+    height: 120px;
+    line-height: 131px; }
+    /* line 499, C:/Portfolio OLD/assets/css/contact.scss */
+    .btn-triangle-right .icon {
+      font-size: 50px; }
+  /* line 503, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-popup-close.opened {
+    width: 120px;
+    height: 120px;
+    right: 40px;
+    top: 30px; }
+  /* line 509, C:/Portfolio OLD/assets/css/contact.scss */
+  .logo {
+    width: 320px;
+    left: 50px; }
+  /* line 513, C:/Portfolio OLD/assets/css/contact.scss */
+  .about p {
+    font-size: 55px; }
+  /* line 516, C:/Portfolio OLD/assets/css/contact.scss */
+  .popup-case p {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 20px 0px; }
+  /* line 521, C:/Portfolio OLD/assets/css/contact.scss */
+  .popup-case h1 {
+    margin: 85px 0px 40px 0px; }
+  /* line 524, C:/Portfolio OLD/assets/css/contact.scss */
+  .case-container {
+    width: 800px;
+    padding: 50px;
+    margin: 100px auto; }
+  /* line 529, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-normal {
+    font-size: 80px;
+    /*margin-top: 340px*/ }
+  /* line 533, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-in-write {
+    font-size: 30pt; }
+  /* line 536, C:/Portfolio OLD/assets/css/contact.scss */
+  .container {
+    margin-top: 130px; }
+  /* line 539, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-obr {
+    width: 250px;
+    font-size: 15pt;
+    margin: 20px;
+    margin-top: 45px; }
+  /* line 545, C:/Portfolio OLD/assets/css/contact.scss */
+  .mail-obr {
+    margin-top: 10px; }
+  /* line 548, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-send {
+    width: 360px;
+    height: 80px;
+    font-size: 35px; }
+  /* line 553, C:/Portfolio OLD/assets/css/contact.scss */
+  .about-background.opened {
+    z-index: 81;
+    animation-name: about-background-opened-mob;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 559, C:/Portfolio OLD/assets/css/contact.scss */
+  .about-background.closed {
+    z-index: 81;
+    animation-name: about-background-closed-mob;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+  /* line 566, C:/Portfolio OLD/assets/css/contact.scss */
+  .profile {
+    height: 550px;
+    width: 500px;
+    margin: 65px;
+    margin-top: 50px; }
+  /* line 572, C:/Portfolio OLD/assets/css/contact.scss */
+  .micky {
+    margin-left: -570px;
+    margin-top: 850px; }
+  /* line 576, C:/Portfolio OLD/assets/css/contact.scss */
+  .dany {
+    margin-bottom: 770px; }
+  /* line 579, C:/Portfolio OLD/assets/css/contact.scss */
+  .photo {
+    width: 270px;
+    height: 270px;
+    margin-top: -170px;
+    margin-left: 114px; }
+  /* line 585, C:/Portfolio OLD/assets/css/contact.scss */
+  .name-prof {
+    font-size: 40px;
+    top: 80px; }
+  /* line 589, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-prof {
+    font-size: 30px;
+    top: 100px; }
+  /* line 593, C:/Portfolio OLD/assets/css/contact.scss */
+  .social {
+    bottom: -15px;
+    height: 100px;
+    width: 250px;
+    margin-left: 125px; }
+  /* line 599, C:/Portfolio OLD/assets/css/contact.scss */
+  .fa {
+    width: 75px;
+    font-size: 50px !important;
+    margin-top: 0; }
+  /* line 604, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group {
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem; }
+  /* line 608, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group input,
+  .form-group textarea {
+    padding: 1.125rem 0.125rem 0.0625rem;
+    font-size: 30px; }
+  /* line 613, C:/Portfolio OLD/assets/css/contact.scss */
+  .control-label {
+    font-size: 30px; }
+  /* line 616, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group input:focus ~ .control-label,
+  .form-group input:valid ~ .control-label,
+  .form-group textarea:focus ~ .control-label,
+  .form-group textarea:valid ~ .control-label {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 1280px) {
+  /* line 625, C:/Portfolio OLD/assets/css/contact.scss */
+  .crossless,
+  .mindg,
+  .arahip {
+    width: 30%;
+    height: 30%; }
+  /* line 631, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-case {
+    width: 240px;
+    height: 54px;
+    margin-left: -130px;
+    font-size: 14pt; }
+  /* line 637, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-triangle-right {
+    width: 80px;
+    height: 80px;
+    line-height: 90px; }
+    /* line 641, C:/Portfolio OLD/assets/css/contact.scss */
+    .btn-triangle-right .icon {
+      font-size: 38px; }
+  /* line 645, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-popup-close.opened {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    top: 30px; }
+  /* line 651, C:/Portfolio OLD/assets/css/contact.scss */
+  .logo {
+    width: 200px;
+    left: 50px; }
+  /* line 655, C:/Portfolio OLD/assets/css/contact.scss */
+  .about p {
+    font-size: 30px; }
+  /* line 658, C:/Portfolio OLD/assets/css/contact.scss */
+  .popup-case p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px; }
+  /* line 663, C:/Portfolio OLD/assets/css/contact.scss */
+  .popup-case h1 {
+    margin: 0px 0px 50px 0px; }
+  /* line 666, C:/Portfolio OLD/assets/css/contact.scss */
+  .case-container {
+    width: 600px;
+    padding: 50px;
+    margin: 100px auto; }
+  /* line 671, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-normal {
+    font-size: 55px;
+    /*margin-top: 250px;*/ }
+  /* line 675, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-in-write {
+    font-size: 15pt; }
+  /* line 678, C:/Portfolio OLD/assets/css/contact.scss */
+  .container {
+    margin-top: 50px; }
+  /* line 681, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-obr {
+    width: 350px;
+    font-size: 15pt;
+    margin: 20px;
+    margin-top: 70px; }
+  /* line 687, C:/Portfolio OLD/assets/css/contact.scss */
+  .mail-obr {
+    margin-top: 20px; }
+  /* line 690, C:/Portfolio OLD/assets/css/contact.scss */
+  .btn-send {
+    width: 240px;
+    height: 54px;
+    font-size: 14pt; }
+  /* line 695, C:/Portfolio OLD/assets/css/contact.scss */
+  .about-background.opened {
+    z-index: 81;
+    animation-name: about-background-opened;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards; }
+  /* line 701, C:/Portfolio OLD/assets/css/contact.scss */
+  .about-background.closed {
+    z-index: 81;
+    animation-name: about-background-closed;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse; }
+  /* line 708, C:/Portfolio OLD/assets/css/contact.scss */
+  .profile {
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 30px; }
+  /* line 714, C:/Portfolio OLD/assets/css/contact.scss */
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin-top: -120px;
+    margin-left: 50px; }
+  /* line 720, C:/Portfolio OLD/assets/css/contact.scss */
+  .name-prof {
+    font-size: 25px;
+    top: 80px; }
+  /* line 724, C:/Portfolio OLD/assets/css/contact.scss */
+  .text-prof {
+    font-size: 20px;
+    top: 90px; }
+  /* line 728, C:/Portfolio OLD/assets/css/contact.scss */
+  .social {
+    bottom: -50px;
+    height: 100px;
+    width: 250px;
+    margin-left: 25px; }
+  /* line 734, C:/Portfolio OLD/assets/css/contact.scss */
+  .fa {
+    width: 30px;
+    font-size: 25px !important;
+    margin-top: 3px; }
+  /* line 739, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem; }
+  /* line 743, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group input,
+  .form-group textarea {
+    padding: 0.125rem 0.125rem 0.0625rem;
+    font-size: 1rem; }
+  /* line 748, C:/Portfolio OLD/assets/css/contact.scss */
+  .control-label {
+    font-size: 1rem; }
+  /* line 751, C:/Portfolio OLD/assets/css/contact.scss */
+  .form-group input:focus ~ .control-label,
+  .form-group input:valid ~ .control-label,
+  .form-group textarea:focus ~ .control-label,
+  .form-group textarea:valid ~ .control-label {
+    font-size: 0.8rem; } }
+
+/*# sourceMappingURL=contact.css.map */
