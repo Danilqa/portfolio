@@ -16,8 +16,7 @@
 
     <link rel="stylesheet" type="text/css" href="assets/vendors/jquery-full-page/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
-    <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font.css" />
 
     <!--[if IE]>
 		<script type="text/javascript">
@@ -83,7 +82,7 @@
             </div>
 
         <div class="btn-popup-close">
-            <div class="x"></div>
+            <i class="icon icon-close"></i>
         </div>
     </div>
 
@@ -94,7 +93,7 @@
                 <img class="logo" src="assets/img/logotype_black.svg" width=200>
             </div>
         <div class="btn-popup-close">
-            <div class="x"></div>
+            <i class="icon icon-close"></i>
         </div>
         <div class="case-container">
             <h1>Арахипстер</h1><br>
@@ -140,12 +139,12 @@
                         <table align="center">
                             <td>
                                 <a href="https://vk.com/stdkv">
-                                <i class="fa fa-vk" aria-hidden="true"></i>
+                                <i class="icon icon-vk" aria-hidden="true"></i>
                                 </a>
                             </td>
                             <td>
                                 <a href="https://www.instagram.com/d.stdkv/">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="icon icon-insta" aria-hidden="true"></i>
                                 </a>
                             </td>
                         </table>
@@ -161,12 +160,12 @@
                         <table align="center">
                             <td>
                                 <a href="https://vk.com/mikael21">
-                                <i class="fa fa-vk" aria-hidden="true"></i>
+                                <i class="icon icon-vk" aria-hidden="true"></i>
                                 </a>
                             </td>
                             <td>
                                 <a href="https://www.instagram.com/mikael_iv/">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="icon icon-insta" aria-hidden="true"></i>
                                 </a>
                             </td>
                         </table>
@@ -177,14 +176,14 @@
         </div>
         
         <div class="btn-popup-close">
-            <div class="x"></div>
+            <i class="icon icon-close"></i>
         </div>
     </div>
 
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/vendors/jquery-ui.min.js"></script>
 
     <script type="text/javascript" src="assets/vendors/jquery-easings/jquery.easings.min.js"></script>
 
@@ -207,7 +206,21 @@
             popup_contact = $('.contact-background');
             popup_case = $('.popup-case');
             popup_about = $('.about-background');
-
+            
+            function removeFullPageScroll() {
+                $.fn.fullpage.setMouseWheelScrolling(false);
+                $.fn.fullpage.setAllowScrolling(false); 
+                $.fn.fullpage.setKeyboardScrolling(false);
+                console.log("Navigation blocked");
+            };
+            
+            function allowFullPageScroll() {
+                $.fn.fullpage.setMouseWheelScrolling(true);
+                $.fn.fullpage.setAllowScrolling(true); 
+                $.fn.fullpage.setKeyboardScrolling(true);
+                console.log("Navigation allowed");    
+            };
+            
             function removeContactClosed() {
                 btn_contact.removeClass('closed');
                 $(btn_popup_close).removeClass('closed');
@@ -242,6 +255,7 @@
                 $(this).toggleClass('opened');
                 popup_contact.toggleClass('opened');
                 popup_contact.find( btn_popup_close ).toggleClass('opened');
+                removeFullPageScroll();
             });
             
             // Кнопка "Открыть кейс"
@@ -250,6 +264,7 @@
                 $(this).toggleClass("opened");
                 popup_case.toggleClass("opened");
                 popup_case.find( btn_popup_close ).toggleClass('opened');
+                removeFullPageScroll();
             });
             
             // Надпись "О нас"
@@ -257,6 +272,7 @@
                 $(this).toggleClass('opened');
                 popup_about.toggleClass('opened');
                 popup_about.find( btn_popup_close ).toggleClass('opened');
+                removeFullPageScroll();
             });
                         
             // Закрыть кейсы
@@ -270,6 +286,8 @@
                 btn_case.removeClass("opened");
                 popup_case.removeClass("opened");
                 popup_case.find( btn_popup_close ).toggleClass('opened');
+                
+                allowFullPageScroll();
             });
             
             // Закрыть "Написать нам"
@@ -283,6 +301,8 @@
                 btn_contact.removeClass('opened');
                 popup_contact.removeClass('opened');
                 popup_contact.find( btn_popup_close ).toggleClass('opened');
+                
+                allowFullPageScroll(); 
             });
             
             // Закрыть "О нас"
@@ -296,6 +316,8 @@
                 btn_about.removeClass('opened');
                 popup_about.removeClass('opened');
                 popup_about.find( btn_popup_close ).toggleClass('opened');
+                
+                allowFullPageScroll();
             });
             
             // Текстовое поле в "Написать нам"

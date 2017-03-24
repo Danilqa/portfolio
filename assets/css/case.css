@@ -1,4 +1,4 @@
-/* line 1, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+/* line 1, C:/Portfolio OLD/assets/css/case.scss */
 .popup-case {
   background: #fff;
   position: fixed;
@@ -16,24 +16,24 @@
         padding: 50px;
         margin: 100px auto;
     }*/ }
-  /* line 14, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+  /* line 14, C:/Portfolio OLD/assets/css/case.scss */
   .popup-case.opened {
     z-index: 81;
     animation-name: popup-case-opening;
     animation-duration: 0.6s;
     animation-fill-mode: forwards; }
-  /* line 20, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+  /* line 20, C:/Portfolio OLD/assets/css/case.scss */
   .popup-case.closed {
     z-index: 81;
     animation-name: popup-case-closing;
     animation-duration: 0.6s;
     animation-fill-mode: forwards;
     animation-direction: reverse; }
-  /* line 28, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+  /* line 28, C:/Portfolio OLD/assets/css/case.scss */
   .popup-case p {
     color: black; }
   @media only screen and (max-width: 500px) {
-    /* line 45, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+    /* line 45, C:/Portfolio OLD/assets/css/case.scss */
     .popup-case .case-container {
       padding: 20px; } }
 
