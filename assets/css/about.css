@@ -129,16 +129,16 @@
   position: absolute; }
 
 /* line 137, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
-.fa {
+.soc {
   transition: 0.2s; }
 
 /* line 141, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
-.fa-vk:hover {
+.icon-vk:hover {
   color: #45668e;
   transition: 0.2s; }
 
 /* line 146, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
-.fa-instagram:hover {
+.icon-insta:hover {
   color: #e1306c;
   transition: 0.2s; }
 

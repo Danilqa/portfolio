@@ -39,7 +39,40 @@
         margin: 100px auto;
     }*/
     
+    .pallete {
+        border: 0;
+    }
     
+    .color-pallete {
+        border: 0;
+        border-radius: 2%;
+    }
+    
+    .first-color {
+        background-color: #D04E33;
+    }
+    
+    .second-color {
+        background-color: #E66A39;
+    }
+    
+    .third-color {
+        background-color: #1C2021;
+    }
+    
+    .fourth-color {
+        background-color: #353C3E;
+    }
+    
+    .fifth-color {
+        background-color: #EEEEEE;
+        border: 1px solid black;
+    }
+    
+    .sixth-color {
+        background-color: #FFFFFF;
+        border: 1px solid black;
+    }
     
     @media only screen and (max-width: 500px) {
         .case-container {

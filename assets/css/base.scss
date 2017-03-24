@@ -532,6 +532,17 @@ a {
         padding: 50px;
         margin: 100px auto;
     }
+    .pallete {
+        width: 750px;
+        height: 350px;
+        margin-left: -5px;
+    }
+    .color-pallete {
+        width: 200px;
+        height: 150px;
+        padding: 22px;
+        margin: 5px;
+    }
     .text-normal {
         font-size: 80px;
         /*margin-top: 340px*/
@@ -602,10 +613,13 @@ a {
         width: 250px;
         margin-left: 125px;
     }
-    .fa {
+    .icon {
         width: 75px;
-        font-size: 50px !important;
+        font-size: 50px;
         margin-top: 0;
+    }
+    .soc-icon {
+        padding: 0 10px;
     }
     .form-group {
         margin-top: 3.25rem;
@@ -674,6 +688,17 @@ a {
         padding: 50px;
         margin: 100px auto;
     }
+    .pallete {
+        width: 450px;
+        height: 250px;
+        margin-left: -10px;
+    }
+    .color-pallete {
+        width: 150px;
+        height: 100px;
+        padding: 22px;
+        margin: 5px;
+    }
     .text-normal {
         font-size: 55px;
         /*margin-top: 250px;*/
@@ -737,10 +762,13 @@ a {
         width: 250px;
         margin-left: 25px;
     }
-    .fa {
+    .icon {
         width: 30px;
-        font-size: 25px !important;
+        font-size: 25px;
         margin-top: 3px;
+    }
+    .soc-icon {
+        padding: 0 5px;
     }
     .form-group {
         margin-top: 2.25rem;
