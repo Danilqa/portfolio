@@ -39,6 +39,19 @@
         margin: 100px auto;
     }*/
     
+    .shapka {
+        background-color: white;
+        position: fixed;
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .case-container {
+            padding: 20px;
+        }
+    }
+}
+
+.arahipster {
     .pallete {
         border: 0;
     }
@@ -73,10 +86,51 @@
         background-color: #FFFFFF;
         border: 1px solid black;
     }
+}
+
+.mg {
+    .pallete {
+        border: 0;
+    }
     
-    @media only screen and (max-width: 500px) {
-        .case-container {
-            padding: 20px;
-        }
+    .color-pallete {
+        border: 0;
+        border-radius: 2%;
+    }
+    
+    .first-color {
+        background-color: #640200;
+    }
+    
+    .second-color {
+        background-color: #FF6D03;
+    }
+    
+    .third-color {
+        background-color: #FFC26F;
+    }
+    
+    .fourth-color {
+        background-color: #FFFAF6;
+        border: 1px solid black;
+    }
+    
+    .fifth-color {
+        background-color: #000000;
+    }
+    
+    .sixth-color {
+        background-color: #EFEFEF;
+        border: 1px solid black;
+    }
+    
+    .link_to_mg_vk {
+        color: #337ab7;
+        transition: 0.2s;
+    }
+    
+    .link_to_mg_vk:hover {
+        color: black;
+        transition: 0.2s;
     }
 }

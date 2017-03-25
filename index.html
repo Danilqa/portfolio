@@ -34,21 +34,21 @@
             <div class="intro">
                 <!--<h1>CROSSLESS</h1>-->
                 <img src="assets/img/kross.png" class="crossless">
-                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation btn-crossless" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-1">
             <div class="intro">
                 <!--<h1>MIND GUESTS</h1>-->
                 <img src="assets/img/mg.png" class="mindg">
-                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation btn-mg" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
         <div class="section" id="section-2">
             <div class="intro">
                 <!--<h1>ARAHIPSTER</h1>-->
                 <img src="assets/img/ARAHIP.png" class="arahip">
-                <button class="btn-shadow btn-case btn-case-animation" type="submit">ОТКРЫТЬ КЕЙС</button>
+                <button class="btn-shadow btn-case btn-case-animation btn-arahipster" type="submit">ОТКРЫТЬ КЕЙС</button>
             </div>
         </div>
 
@@ -88,7 +88,89 @@
 
     <div class="btn-contact-animation"></div>
 
-    <div class="popup-case">
+    <div class="popup-case cross">
+        <div class="shapka"></div>
+        <div class="header">
+                <img class="logo" src="assets/img/logotype_black.svg" width=200>
+            </div>
+        <div class="btn-popup-close">
+            <i class="icon icon-close"></i>
+        </div>
+        <div class="case-container">
+            <h1>Даня пидор</h1><br>
+            
+        </div>
+    </div>
+    
+    <div class="popup-case mg">
+        <div class="shapka"></div>
+        <div class="header">
+                <img class="logo" src="assets/img/logotype_black.svg" width=200>
+            </div>
+        <div class="btn-popup-close">
+            <i class="icon icon-close"></i>
+        </div>
+        <div class="case-container">
+            <h1>Mind Guests</h1><br>
+            <p><b>Род занятий:</b><br>
+            Mind Guests проводят ролевые кабинетные игры в Санкт-Петербурге.</p>
+
+            <p><b>Задача:</b><br>
+            Разработать логотип и стиль группы ВКонтакте.</p>
+
+            <p><b>Логотип:</b><br>
+
+            Сначала был создан временный логотип, чтобы сразу создать группу ВКонтакте:
+            </p>
+            
+            <img class="img_mg" src="assets/img/cases/mg/logobl.png" width="70%">
+            
+            <p>Затем начали разрабатывать полноценный логотип. Mind Guests дословно переводится с английского как «Гости Разума», а значит на логотипе будут элементы, отображающие «гостей» и «разум». После нескольких вариантов макета решили остановиться на таком варианте:</p>
+            
+            <img class="img_mg" src="assets/img/cases/mg/Untitled-2.png" width="60%">
+            
+            <p>Изменив черты лица, расположение космоса в голове и раскрасив, получили:</p>
+            
+            <img class="img_mg" src="assets/img/cases/mg/1.png" width="60%">
+            
+            <p>И затем перенесли временный логотип под получившийся рисунок:</p>
+            
+            <img class="img_mg" src="assets/img/cases/mg/mg.png" width="60%">
+            
+            <p>На разработку логотипа ушло 2-3 дня.</p><br>
+            
+            <p><b>Стиль группы:</b><br>
+            Подобрали основной шрифт – Corki, который используется на картинках в записях группы, если эта картинка используется больше для передачи информации, чем для привлечения внимания к посту. Подобрали палитру для меню и товаров:</p><br>
+            <table class="pallete">
+                <tr>
+                    <td>
+                        <div class="color-pallete first-color"></div>
+                    </td>
+                    <td>
+                        <div class="color-pallete second-color"></div>
+                    </td>
+                    <td>
+                        <div class="color-pallete third-color"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="color-pallete fourth-color"></div>
+                    </td>
+                    <td>
+                        <div class="color-pallete fifth-color"></div>
+                    </td>
+                    <td>
+                        <div class="color-pallete sixth-color"></div>
+                    </td>
+                </tr>
+            </table><br>
+            <p>Элементы меню сделаны в том же стиле, что и логотип.</p>
+            <p><b><a href="https://vk.com/mind_guests" class="link_to_mg_vk">Ссылка на группу ВКонтакте</a></b></p>
+        </div>
+    </div>
+    
+    <div class="popup-case arahipster">
         <div class="header">
                 <img class="logo" src="assets/img/logotype_black.svg" width=200>
             </div>
@@ -226,10 +308,16 @@
             
             btn_contact = $('.btn-contact');
             btn_case = $('.btn-case');
+            btn_case_ara = $('.btn-arahipster');
+            btn_case_mg = $('.btn-mg');
+            btn_case_cross = $('.btn-crossless');
             btn_about = $('.btn-about');
 
             popup_contact = $('.contact-background');
             popup_case = $('.popup-case');
+            popup_case_ara = $('.arahipster');
+            popup_case_mg = $('.mg');
+            popup_case_cross = $('.cross');
             popup_about = $('.about-background');
             
             function removeFullPageScroll() {
@@ -283,12 +371,30 @@
                 removeFullPageScroll();
             });
             
-            // Кнопка "Открыть кейс"
-            btn_case.on('click', function () {
+            // Кнопка "Открыть кейс Арахипстер"
+            btn_case_ara.on('click', function () {
                 console.log("Case");
                 $(this).toggleClass("opened");
-                popup_case.toggleClass("opened");
-                popup_case.find( btn_popup_close ).toggleClass('opened');
+                popup_case_ara.toggleClass("opened");
+                popup_case_ara.find( btn_popup_close ).toggleClass('opened');
+                removeFullPageScroll();
+            });
+            
+            // Кнопка "Открыть кейс Mind Guests"
+            btn_case_mg.on('click', function () {
+                console.log("Case");
+                $(this).toggleClass("opened");
+                popup_case_mg.toggleClass("opened");
+                popup_case_mg.find( btn_popup_close ).toggleClass('opened');
+                removeFullPageScroll();
+            });
+            
+            // Кнопка "Открыть кейс Арахипстер"
+            btn_case_cross.on('click', function () {
+                console.log("Case");
+                $(this).toggleClass("opened");
+                popup_case_cross.toggleClass("opened");
+                popup_case_cross.find( btn_popup_close ).toggleClass('opened');
                 removeFullPageScroll();
             });
             
@@ -359,6 +465,16 @@
              el.style.cssText = 'height:' + el.scrollHeight + 'px';
                },0);
              }
+            
+            //Шапка при сролле в кейсах в моб версии
+            popup_case.scroll(function(){
+            var bo = $(this).scrollTop();
+            var a = $(".shapka").css('opacity')
+            $(".shapka").html(bo);
+            if ( bo >= 200 && a == 0) {$(".shapka").stop().animate({'opacity':'1'},500)};
+            if ( bo < 200 && a == 1) {$(".shapka").stop().animate({'opacity':'0'},500)};
+            })
+            
             
             
 

@@ -33,35 +33,92 @@
   .popup-case p {
     color: black; }
   /* line 42, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .pallete {
-    border: 0; }
-  /* line 46, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .color-pallete {
-    border: 0;
-    border-radius: 2%; }
-  /* line 51, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .first-color {
-    background-color: #D04E33; }
-  /* line 55, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .second-color {
-    background-color: #E66A39; }
-  /* line 59, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .third-color {
-    background-color: #1C2021; }
-  /* line 63, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .fourth-color {
-    background-color: #353C3E; }
-  /* line 67, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .fifth-color {
-    background-color: #EEEEEE;
-    border: 1px solid black; }
-  /* line 72, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
-  .popup-case .sixth-color {
-    background-color: #FFFFFF;
-    border: 1px solid black; }
+  .popup-case .shapka {
+    background-color: white;
+    position: fixed; }
   @media only screen and (max-width: 500px) {
-    /* line 78, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+    /* line 48, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
     .popup-case .case-container {
       padding: 20px; } }
+
+/* line 55, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .pallete {
+  border: 0; }
+
+/* line 59, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .color-pallete {
+  border: 0;
+  border-radius: 2%; }
+
+/* line 64, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .first-color {
+  background-color: #D04E33; }
+
+/* line 68, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .second-color {
+  background-color: #E66A39; }
+
+/* line 72, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .third-color {
+  background-color: #1C2021; }
+
+/* line 76, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .fourth-color {
+  background-color: #353C3E; }
+
+/* line 80, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .fifth-color {
+  background-color: #EEEEEE;
+  border: 1px solid black; }
+
+/* line 85, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.arahipster .sixth-color {
+  background-color: #FFFFFF;
+  border: 1px solid black; }
+
+/* line 92, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .pallete {
+  border: 0; }
+
+/* line 96, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .color-pallete {
+  border: 0;
+  border-radius: 2%; }
+
+/* line 101, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .first-color {
+  background-color: #640200; }
+
+/* line 105, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .second-color {
+  background-color: #FF6D03; }
+
+/* line 109, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .third-color {
+  background-color: #FFC26F; }
+
+/* line 113, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .fourth-color {
+  background-color: #FFFAF6;
+  border: 1px solid black; }
+
+/* line 118, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .fifth-color {
+  background-color: #000000; }
+
+/* line 122, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .sixth-color {
+  background-color: #EFEFEF;
+  border: 1px solid black; }
+
+/* line 127, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .link_to_mg_vk {
+  color: #337ab7;
+  transition: 0.2s; }
+
+/* line 132, C:/OpenServer/domains/portf.ru/assets/css/case.scss */
+.mg .link_to_mg_vk:hover {
+  color: black;
+  transition: 0.2s; }
 
 /*# sourceMappingURL=case.css.map */
