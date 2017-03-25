@@ -1,20 +1,20 @@
 @charset "UTF-8";
-/* line 1, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 1, C:/Portfolio OLD/assets/css/about.scss */
 .about {
   right: 35px;
   top: 45px;
   position: fixed;
   z-index: 70;
   transition: 0.2s; }
-  /* line 8, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  /* line 8, C:/Portfolio OLD/assets/css/about.scss */
   .about p {
     color: black; }
 
-/* line 13, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 13, C:/Portfolio OLD/assets/css/about.scss */
 .about:hover {
   cursor: pointer; }
 
-/* line 17, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 17, C:/Portfolio OLD/assets/css/about.scss */
 .about-background {
   width: 0;
   height: 0;
@@ -45,7 +45,7 @@
     animation-direction: reverse;
   } */ }
 
-/* line 52, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 52, C:/Portfolio OLD/assets/css/about.scss */
 .btn-about-animation.opened {
   z-index: 80;
   animation-name: btn-about-opening;
@@ -53,12 +53,12 @@
   animation-fill-mode: forwards;
   background: #ffffff;
   color: #ffffff; }
-  /* line 59, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+  /* line 59, C:/Portfolio OLD/assets/css/about.scss */
   .btn-about-animation.opened:hover {
     color: #ffffff;
     background: #ffffff; }
 
-/* line 65, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 65, C:/Portfolio OLD/assets/css/about.scss */
 .btn-about-animation.closed {
   z-index: 80;
   animation-name: btn-about-opening;
@@ -69,16 +69,16 @@
 /*
    ===== Начинка в "О нас" =====
 */
-/* line 78, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 78, C:/Portfolio OLD/assets/css/about.scss */
 .about-header {
   text-align: center; }
 
-/* line 82, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 82, C:/Portfolio OLD/assets/css/about.scss */
 .about-normal {
   margin-top: 100px;
   color: black; }
 
-/* line 87, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 87, C:/Portfolio OLD/assets/css/about.scss */
 .profile {
   border: 1px solid black;
   border-radius: 10px;
@@ -88,15 +88,15 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 97, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 97, C:/Portfolio OLD/assets/css/about.scss */
 .dany {
   background-image: url(../img/4.jpg); }
 
-/* line 101, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 101, C:/Portfolio OLD/assets/css/about.scss */
 .micky {
   background-image: url(../img/5.jpg); }
 
-/* line 105, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 105, C:/Portfolio OLD/assets/css/about.scss */
 .photo {
   border: 1px solid black;
   border-radius: 100%;
@@ -105,44 +105,44 @@
   background-size: cover;
   position: absolute; }
 
-/* line 114, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 114, C:/Portfolio OLD/assets/css/about.scss */
 .danya-prof {
   background-image: url(../img/profile/danya.jpg); }
 
-/* line 118, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 118, C:/Portfolio OLD/assets/css/about.scss */
 .misha-prof {
   background-image: url(../img/profile/misha.jpg); }
 
-/* line 122, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 122, C:/Portfolio OLD/assets/css/about.scss */
 .name-prof {
   color: black;
   position: relative; }
 
-/* line 127, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 127, C:/Portfolio OLD/assets/css/about.scss */
 .text-prof {
   color: black;
   position: relative; }
 
-/* line 132, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 132, C:/Portfolio OLD/assets/css/about.scss */
 .social {
   border: 0;
   position: absolute; }
 
-/* line 137, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 137, C:/Portfolio OLD/assets/css/about.scss */
 .soc {
   transition: 0.2s; }
 
-/* line 141, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 141, C:/Portfolio OLD/assets/css/about.scss */
 .icon-vk:hover {
   color: #45668e;
   transition: 0.2s; }
 
-/* line 146, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 146, C:/Portfolio OLD/assets/css/about.scss */
 .icon-insta:hover {
   color: #e1306c;
   transition: 0.2s; }
 
-/* line 151, C:/OpenServer/domains/portf.ru/assets/css/about.scss */
+/* line 151, C:/Portfolio OLD/assets/css/about.scss */
 .social table td a {
   color: black; }
 
