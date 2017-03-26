@@ -8,9 +8,6 @@ $(document).ready(function () {
 
     btn_contact = $('.btn-contact');
     btn_case = $('.btn-case');
-    btn_case_ara = $('.btn-arahipster');
-    btn_case_mg = $('.btn-mg');
-    btn_case_cross = $('.btn-crossless');
     btn_about = $('.btn-about');
 
     popup_contact = $('.contact-background');
@@ -71,30 +68,18 @@ $(document).ready(function () {
         removeFullPageScroll();
     });
 
-    // Кнопка "Открыть кейс Арахипстер"
-    btn_case_ara.on('click', function () {
-        console.log("Case");
+    // Кнопка "Открыть кейс"
+    btn_case.on('click', function () {
+        let case_name = $(this).data("case");
+        let case_data = $(`.case-data[data-case=${case_name}]`).html();
+        
+        popup_case.scrollTop(0);
+                
+        popup_case.find(".case-container").html( case_data );
+        
         $(this).toggleClass("opened");
-        popup_case_ara.toggleClass("opened");
-        popup_case_ara.find(btn_popup_close).toggleClass('opened');
-        removeFullPageScroll();
-    });
-
-    // Кнопка "Открыть кейс Mind Guests"
-    btn_case_mg.on('click', function () {
-        console.log("Case");
-        $(this).toggleClass("opened");
-        popup_case_mg.toggleClass("opened");
-        popup_case_mg.find(btn_popup_close).toggleClass('opened');
-        removeFullPageScroll();
-    });
-
-    // Кнопка "Открыть кейс Арахипстер"
-    btn_case_cross.on('click', function () {
-        console.log("Case");
-        $(this).toggleClass("opened");
-        popup_case_cross.toggleClass("opened");
-        popup_case_cross.find(btn_popup_close).toggleClass('opened');
+        popup_case.toggleClass("opened");
+        popup_case.find(btn_popup_close).toggleClass('opened');
         removeFullPageScroll();
     });
 
@@ -165,19 +150,21 @@ $(document).ready(function () {
             el.style.cssText = 'height:' + el.scrollHeight + 'px';
         }, 0);
     }
-
-    //Шапка при сролле в кейсах в моб версии
+    
+    let a = $(".header-background").css('opacity');
+    let bo = $(this).scrollTop();
+    // Шапка при сролле в кейсах в моб версии
     popup_case.scroll(function () {
-        var bo = $(this).scrollTop();
-        var a = $(".shapka").css('opacity')
+        bo = $(this).scrollTop();
+        a = $(".header-background").css('opacity')
 
         if (bo >= 200 && a == 0) {
-            $(".shapka").stop().animate({
+            $(".header-background").stop().animate({
                 'opacity': '1'
             }, 500)
         };
         if (bo < 200 && a == 1) {
-            $(".shapka").stop().animate({
+            $(".header-background").stop().animate({
                 'opacity': '0'
             }, 500)
         };
